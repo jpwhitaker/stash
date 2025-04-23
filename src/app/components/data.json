@@ -1,0 +1,2426 @@
+[
+  {
+    "name": "Cedarbrook Lodge",
+    "city": "Seattle",
+    "daily_rate": 206.17,
+    "id": 1,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/cedarbrook-lodge/00_Gallery_Image_1_c4zkaj.jpg"
+  },
+  {
+    "name": "Lodge on the Desert",
+    "city": "Tucson",
+    "daily_rate": 180.45,
+    "id": 2,
+    "has_member_rate": false,
+    "image": "https://images.stashrewards.com/lodge-on-the-desert-13_hpg.jpg"
+  },
+  {
+    "name": "The Lenox Hotel",
+    "city": "Boston",
+    "daily_rate": 322.43,
+    "id": 3,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lenox-hotel/00_Gallery_Image_1_hc2uix.jpg"
+  },
+  {
+    "name": "Planters Inn",
+    "city": "Savannah",
+    "daily_rate": 151.27,
+    "id": 4,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/planters-inn/00_Gallery_Image_1_nsmug0.jpg"
+  },
+  {
+    "name": "Stonehurst Place",
+    "city": "Atlanta",
+    "daily_rate": 109.8,
+    "id": 5,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/stonehurst-place/00_Gallery_Image_1_vrk6gj.jpg"
+  },
+  {
+    "name": "Hotel Abri",
+    "city": "San Francisco",
+    "daily_rate": 138.5,
+    "id": 6,
+    "has_member_rate": false,
+    "image": "https://images.stashrewards.com/hotel-abri-exteriornewpm_hpg.png"
+  },
+  {
+    "name": "Hotel 43",
+    "city": "Boise",
+    "daily_rate": 331.68,
+    "id": 7,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel43/00_Gallery_Image_1a_trystg.jpg"
+  },
+  {
+    "name": "Riverside Hotel",
+    "city": "Fort Lauderdale",
+    "daily_rate": 360.12,
+    "id": 8,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/riverside-hotel/00_Gallery_Image_1_lr3hkf.jpg"
+  },
+  {
+    "name": "The Island Inn at 123 West",
+    "city": "Friday Harbor",
+    "daily_rate": 132.07,
+    "id": 9,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-island-inn-at-onetwothree-west/00_Gallery_Image_1_gwqvoa.jpg"
+  },
+  {
+    "name": "Napa River Inn",
+    "city": "Napa",
+    "daily_rate": 391.56,
+    "id": 10,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/napa-river-inn/00_Gallery_Image_1_vhvcmq.jpg"
+  },
+  {
+    "name": "The Olde Mill Inn",
+    "city": "Basking Ridge",
+    "daily_rate": 231.83,
+    "id": 11,
+    "has_member_rate": false,
+    "image": "https://images.stashrewards.com/the-olde-mill-inn-courtyard-new_hpg.jpg"
+  },
+  {
+    "name": "The Priory Hotel",
+    "city": "Pittsburgh",
+    "daily_rate": 167.08,
+    "id": 12,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/priory-hotel/000_Gallery_Image_1_zqwkdy.jpg"
+  },
+  {
+    "name": "The Norwich Inn",
+    "city": "Norwich",
+    "daily_rate": 268.6,
+    "id": 13,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/norwich-inn/00_Gallery_Image_1_kcaaj6.jpg"
+  },
+  {
+    "name": "Weber's Boutique Hotel & Restaurant",
+    "city": "Ann Arbor",
+    "daily_rate": 364.32,
+    "id": 14,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/webers-boutique-hotel/00_Gallery_Image_1_ujqdzd.jpg"
+  },
+  {
+    "name": "Sebasco Harbor Resort",
+    "city": "Sebasco Estates",
+    "daily_rate": 370.96,
+    "id": 15,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sebasco-harbor-resort/00_Gallery_Image_1_r3lufq.jpg"
+  },
+  {
+    "name": "Casa Cayuco Eco Adventure Lodge",
+    "city": "Bocas del Toro",
+    "daily_rate": 127.84,
+    "id": 16,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/casa-cayuco-eco-adventure-lodge/Gallery_1_f4bpbg.jpg"
+  },
+  {
+    "name": "The Lodges at Gettysburg",
+    "city": "Gettysburg",
+    "daily_rate": 211.41,
+    "id": 17,
+    "has_member_rate": false,
+    "image": "https://images.stashrewards.com/the-lodges-at-gettysburg-capt-lodges-ext_hpg.jpg"
+  },
+  {
+    "name": "Hotel on North",
+    "city": "Pittsfield",
+    "daily_rate": 223.2,
+    "id": 18,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-on-north/HoNfront_JP_Galli_jqribz.jpg"
+  },
+  {
+    "name": "Henry Howard Hotel",
+    "city": "New Orleans",
+    "daily_rate": 415.47,
+    "id": 19,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/henry-howard-hotel/00_Gallery_Image_1_tycavl.jpg"
+  },
+  {
+    "name": "Hotel 24 South",
+    "city": "Staunton",
+    "daily_rate": 145.5,
+    "id": 20,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-24-south/00_Gallery_Image_1_wzxg47.jpg"
+  },
+  {
+    "name": "250 Main Hotel",
+    "city": "Rockland",
+    "daily_rate": 246.42,
+    "id": 21,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/250-main-hotel/00_Gallery_Image_1_djsx3o.jpg"
+  },
+  {
+    "name": "The Birchwood",
+    "city": "St. Petersburg",
+    "daily_rate": 492.84,
+    "id": 22,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/the-birchwood-exterior-1_hpg.jpg"
+  },
+  {
+    "name": "The Firebrand",
+    "city": "Whitefish",
+    "daily_rate": 289.31,
+    "id": 23,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-firebrand-hotel/00_Gallery_Image_1_h194k7.jpg"
+  },
+  {
+    "name": "Hermitage Bay",
+    "city": "St. Mary's",
+    "daily_rate": 230.26,
+    "id": 24,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/hermitage-bay-hotel-beachfront-veranda_hpg.jpg"
+  },
+  {
+    "name": "The LARK",
+    "city": "Bozeman",
+    "daily_rate": 255.39,
+    "id": 25,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/the-lark-exterior-1_hpg.jpg"
+  },
+  {
+    "name": "Knob Hill Inn",
+    "city": "Ketchum",
+    "daily_rate": 465.95,
+    "id": 26,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/knob-hill-inn/00_Gallery_Image_1a_qdutah.jpg"
+  },
+  {
+    "name": "The Grove Hotel",
+    "city": "Boise",
+    "daily_rate": 239.58,
+    "id": 27,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-grove-hotel/00_Gallery_Image_1_uk37rw.jpg"
+  },
+  {
+    "name": "Rest Hotel Plymouth",
+    "city": "Plymouth",
+    "daily_rate": 301.74,
+    "id": 28,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/rest-hotel/00_Gallery_Image_2_sfkda4.jpg"
+  },
+  {
+    "name": "Beauport Hotel",
+    "city": "Gloucester",
+    "daily_rate": 490.46,
+    "id": 29,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/beauport-hotel/00_Gallery_Image_1_rwkxou.jpg"
+  },
+  {
+    "name": "Mount View Hotel & Spa",
+    "city": "Calistoga",
+    "daily_rate": 340.57,
+    "id": 30,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/mount-view-hotel-and-spa-12_hpg.jpg"
+  },
+  {
+    "name": "Hopkins Bay Resort",
+    "city": "Hopkins",
+    "daily_rate": 245.62,
+    "id": 31,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hopkins-bay-resort/000_Gallery_Image_5_ho0vtk.jpg"
+  },
+  {
+    "name": "Thatch Caye Resort",
+    "city": "Dangriga",
+    "daily_rate": 204.77,
+    "id": 32,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/thatch-caye-resort/000_Gallery_Image_1_na6m3v.jpg"
+  },
+  {
+    "name": "Royal Belize Private Island",
+    "city": "Dangriga",
+    "daily_rate": 313.01,
+    "id": 33,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/royal-belize/000_Gallery_Image_1a_cezidv.jpg"
+  },
+  {
+    "name": "Mansions on Fifth Hotel",
+    "city": "Pittsburgh",
+    "daily_rate": 360.87,
+    "id": 34,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/mansions-on-fifth-hotel/00_Gallery_Image_1_bfapi0.jpg"
+  },
+  {
+    "name": "A Sunset Chateau",
+    "city": "Sedona",
+    "daily_rate": 380.93,
+    "id": 35,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/a-sunset-chateau/00_Gallery_Image_1_b7e6ot.jpg"
+  },
+  {
+    "name": "Wood River Inn and Suites",
+    "city": "Hailey",
+    "daily_rate": 429.48,
+    "id": 36,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/wood-river-inn-and-suites/00_Gallery_Image_1_dypr5a.jpg"
+  },
+  {
+    "name": "The Ivey's Hotel",
+    "city": "Charlotte",
+    "daily_rate": 253.62,
+    "id": 37,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/the-iveys-hotel-arch-details1_hpg.jpg"
+  },
+  {
+    "name": "Hotel El Convento",
+    "city": "San Juan",
+    "daily_rate": 131.65,
+    "id": 38,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/hotel-el-convento-ship_hpg.jpg"
+  },
+  {
+    "name": "Saratoga Casino Hotel",
+    "city": "Saratoga Springs",
+    "daily_rate": 293.11,
+    "id": 39,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/saratoga-casino-hotel/00_Gallery_Image_1_bwzitp.jpg"
+  },
+  {
+    "name": "Valhalla Resort Hotel",
+    "city": "Helen",
+    "daily_rate": 306.33,
+    "id": 40,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/valhalla-resort-hotel-golf3_hpg.jpg"
+  },
+  {
+    "name": "Hotel Interurban",
+    "city": "Tukwila",
+    "daily_rate": 372.72,
+    "id": 41,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-interurban/00_Gallery_Image_1_kwknkx.jpg"
+  },
+  {
+    "name": "Kinzie Hotel",
+    "city": "Chicago",
+    "daily_rate": 423.79,
+    "id": 42,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/kinzie-hotel-king-suite-view_hpg.jpg"
+  },
+  {
+    "name": "Lord Baltimore Hotel",
+    "city": "Baltimore",
+    "daily_rate": 119.04,
+    "id": 43,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lord-baltimore-hotel/00_Gallery_Image_1_vmd9kf.jpg"
+  },
+  {
+    "name": "Ashland Hills Hotel and Suites",
+    "city": "Ashland",
+    "daily_rate": 378.35,
+    "id": 44,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/ashland-hills-hotels-and-suites/00_Gallery_Image_1_comdfz.jpg"
+  },
+  {
+    "name": "Ashland Springs Hotel",
+    "city": "Ashland",
+    "daily_rate": 495.97,
+    "id": 45,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/ashland-springs-hotel-exterior_hpg.jpg"
+  },
+  {
+    "name": "Lithia Springs Resort",
+    "city": "Ashland",
+    "daily_rate": 156.82,
+    "id": 46,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lithia-springs-resort/00_Gallery_Image_1_yqc1mg.jpg"
+  },
+  {
+    "name": "Heritage Inn",
+    "city": "Great Falls",
+    "daily_rate": 335.5,
+    "id": 47,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/heritage-inn-exterior_hpg.jpg"
+  },
+  {
+    "name": "Meadowbrook Inn",
+    "city": "Blowing Rock",
+    "daily_rate": 152.19,
+    "id": 48,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/meadowbrook-inn/000_Gallery_Image_1_yefofy.jpg"
+  },
+  {
+    "name": "Hotel Via",
+    "city": "San Francisco",
+    "daily_rate": 130.84,
+    "id": 49,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-via/00_Gallery_Image_1_u909cl.jpg"
+  },
+  {
+    "name": "Marina Inn at Grande Dunes",
+    "city": "Myrtle Beach",
+    "daily_rate": 493.15,
+    "id": 50,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/marina-inn-at-grande-dunes/00_Gallery_Image_1_naczqz.jpg"
+  },
+  {
+    "name": "El Cordova Hotel",
+    "city": "Coronado",
+    "daily_rate": 484.6,
+    "id": 51,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/el-cordova-hotel-propertyfront_hpg.jpg"
+  },
+  {
+    "name": "The State Hotel",
+    "city": "Seattle",
+    "daily_rate": 280.75,
+    "id": 52,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-state-hotel/00_Gallery_Image_1_kjm4tt.jpg"
+  },
+  {
+    "name": "The Heathman Hotel",
+    "city": "Kirkland",
+    "daily_rate": 347.04,
+    "id": 53,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-heathman-hotel/00_Gallery_Image_1_psuzbz.jpg"
+  },
+  {
+    "name": "The Blake",
+    "city": "Taos Ski Valley",
+    "daily_rate": 188.35,
+    "id": 54,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/the-blake-6_hpg.jpg"
+  },
+  {
+    "name": "Volcano Village Lodge",
+    "city": "Volcano",
+    "daily_rate": 111.98,
+    "id": 55,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/volcano-village-lodge/Checking_In-01_LG_Liz_Hamilton_quabqr.jpg"
+  },
+  {
+    "name": "300 Clifton",
+    "city": "Minneapolis",
+    "daily_rate": 141.36,
+    "id": 56,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/300-clifton-mansion_hpg.jpg"
+  },
+  {
+    "name": "Hawthorne Hotel",
+    "city": "Salem",
+    "daily_rate": 118.75,
+    "id": 57,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/hawthorne-hotel-27_hpg.jpg"
+  },
+  {
+    "name": "The Groton Inn",
+    "city": "Groton",
+    "daily_rate": 393.48,
+    "id": 58,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/the-groton-inn-7_hpg.jpg"
+  },
+  {
+    "name": "Higgins Beach Inn",
+    "city": "Scarborough",
+    "daily_rate": 400.23,
+    "id": 59,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/higgins-beach-inn/00_Gallery_Image_1_fhpgyy.jpg"
+  },
+  {
+    "name": "The FINCH",
+    "city": "Walla Walla",
+    "daily_rate": 301.56,
+    "id": 60,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/the-finch-1_hpg.jpg"
+  },
+  {
+    "name": "The Inn at Saratoga",
+    "city": "Saratoga Springs",
+    "daily_rate": 307.71,
+    "id": 61,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/the-inn-at-saratoga-16_hpg.jpg"
+  },
+  {
+    "name": "Sweet Songs Jungle Lodge",
+    "city": "San Ignacio",
+    "daily_rate": 164.09,
+    "id": 62,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sweet-songs-jungle-lodge/000_Gallery_Image_7_pa8gp3.jpg"
+  },
+  {
+    "name": "Copal Tree Lodge",
+    "city": "Punta Gorda",
+    "daily_rate": 326.58,
+    "id": 63,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/copal-tree-lodge/000_Gallery_Image_1_h6ublq.jpg"
+  },
+  {
+    "name": "The Horton Hotel",
+    "city": "Boone",
+    "daily_rate": 110.74,
+    "id": 64,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/the-horton-hotel-1_hpg.jpg"
+  },
+  {
+    "name": "The Hotel Y",
+    "city": "Yakima",
+    "daily_rate": 257.72,
+    "id": 65,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-y/00_Gallery_Image_1_zltlx2.jpg"
+  },
+  {
+    "name": "Inn at Nakoma",
+    "city": "Clio",
+    "daily_rate": 488.5,
+    "id": 66,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lodge-at-nakoma/00_Gallery_Image_1_k0avmn.jpg"
+  },
+  {
+    "name": "The Hotel Concord",
+    "city": "Concord",
+    "daily_rate": 108.15,
+    "id": 67,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-concord/00_Gallery_Image_1_hm3smf.jpg"
+  },
+  {
+    "name": "Hotel Gibbs",
+    "city": "San Antonio",
+    "daily_rate": 165.44,
+    "id": 68,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-gibbs/00_Gallery_Image_1_rrxcdk.jpg"
+  },
+  {
+    "name": "Blossom Hotel Houston",
+    "city": "Houston",
+    "daily_rate": 105.19,
+    "id": 69,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/blossom-hotel/00_Gallery_Image_1_sywfm1.jpg"
+  },
+  {
+    "name": "The Aerie",
+    "city": "New Bern",
+    "daily_rate": 480.81,
+    "id": 70,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/the-aerie-f_hpg.png"
+  },
+  {
+    "name": "The Gardens Hotel",
+    "city": "Key West",
+    "daily_rate": 209.57,
+    "id": 71,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/gardens-hotel-room-entrance_hpg.png"
+  },
+  {
+    "name": "Wimberley Inn & Bar",
+    "city": "Wimberley",
+    "daily_rate": 212.95,
+    "id": 72,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/wimberley-inn/00_Gallery_Image_4_zdgrwt.jpg"
+  },
+  {
+    "name": "The Ruby Hotel & Bar",
+    "city": "Round Rock",
+    "daily_rate": 296.54,
+    "id": 73,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/ruby-hotel/00_Gallery_Image_1_xe7vjk.jpg"
+  },
+  {
+    "name": "Haworth Hotel at Hope College",
+    "city": "Holland",
+    "daily_rate": 166.02,
+    "id": 74,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/haworth-hotel/00_Gallery_Image_1_hna2gk.jpg"
+  },
+  {
+    "name": "Beach House Dewey",
+    "city": "Dewey Beach",
+    "daily_rate": 331.77,
+    "id": 75,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/beach-house-dewey/00_Gallery_Image_3_ugkngd.jpg"
+  },
+  {
+    "name": "Hotel Leo",
+    "city": "Bellingham",
+    "daily_rate": 274.85,
+    "id": 76,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-leo/Details_-_People_2_wediv4.jpg"
+  },
+  {
+    "name": "Heliotrope Hotel",
+    "city": "Bellingham",
+    "daily_rate": 182.98,
+    "id": 77,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/heliotrope-hotel/00_Gallery_Image_1_ijtrxp.jpg"
+  },
+  {
+    "name": "Hotel Windrow",
+    "city": "Ellensburg",
+    "daily_rate": 297.6,
+    "id": 78,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-windrow/Hotel_Windrow_Exterior_edited_mftqiu.jpg"
+  },
+  {
+    "name": "Blue Elk Inn",
+    "city": "Leavenworth",
+    "daily_rate": 161.91,
+    "id": 79,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/blue-elk-inn/000_Gallery_Image_1_jfsgic.jpg"
+  },
+  {
+    "name": "The Lodge at St. Edward Park",
+    "city": "Kenmore",
+    "daily_rate": 103.38,
+    "id": 80,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/lodge-saint-edward-exterior1_hpg.png"
+  },
+  {
+    "name": "Classen Inn",
+    "city": "Oklahoma City",
+    "daily_rate": 174.62,
+    "id": 81,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/classen-inn-outdoor-seating_hpg.png"
+  },
+  {
+    "name": "Hoffman Haus",
+    "city": "Fredericksburg",
+    "daily_rate": 282.57,
+    "id": 82,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/hoffman-haus-walkway_hpg.png"
+  },
+  {
+    "name": "Los Colibris Casitas",
+    "city": "Todos Santos",
+    "daily_rate": 324.34,
+    "id": 83,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/los-colibris/00_Gallery_Image_1_iquott.jpg"
+  },
+  {
+    "name": "Volcano Village Estates",
+    "city": "Volcano",
+    "daily_rate": 310.44,
+    "id": 84,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/volcano-village-estates/00_Gallery_Image_1_gopifk.jpg"
+  },
+  {
+    "name": "Hotel El Capitan",
+    "city": "Van Horn",
+    "daily_rate": 473.14,
+    "id": 85,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/el-capitan/00_Gallery_Image_1_q2jtkg.jpg"
+  },
+  {
+    "name": "The Wren",
+    "city": "Missoula",
+    "daily_rate": 325.75,
+    "id": 86,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-wren/00_Gallery_Image_1_yhrr3q.jpg"
+  },
+  {
+    "name": "4411 Inn & Suites",
+    "city": "Michigan City",
+    "daily_rate": 290.58,
+    "id": 87,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/4411-inn-suites-king-bed-and-sofa_hpg.png"
+  },
+  {
+    "name": "Inn at Palm Springs",
+    "city": "Palm Springs",
+    "daily_rate": 346.96,
+    "id": 88,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-palm-springs/000_Gallery_Image_1_ju0ouu.jpg"
+  },
+  {
+    "name": "Nautilus Resort",
+    "city": "Rarotonga",
+    "daily_rate": 312.35,
+    "id": 89,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/nautilus-resort/00_Gallery_Image_1_uqfhhc.jpg"
+  },
+  {
+    "name": "Fitger's Inn",
+    "city": "Duluth",
+    "daily_rate": 363.13,
+    "id": 90,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/fitgers-inn/00_Gallery_Image_1_hi5hlp.jpg"
+  },
+  {
+    "name": "Hotel Simone",
+    "city": "St. Simons Island",
+    "daily_rate": 243.55,
+    "id": 91,
+    "has_member_rate": true,
+    "image": "https://images.stashrewards.com/hotel-simone-pool-2_hpg.png"
+  },
+  {
+    "name": "SOVA",
+    "city": "Dallas",
+    "daily_rate": 383.3,
+    "id": 92,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sova/00_Gallery_Image_1_sqkzc9.jpg"
+  },
+  {
+    "name": "Silverbow Inn Hotel & Suites",
+    "city": "Juneau",
+    "daily_rate": 484.46,
+    "id": 93,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/silverbow-inn/00_Gallery_Image_3_vx4s1p.jpg"
+  },
+  {
+    "name": "S.L.umber Yard",
+    "city": "Leadville",
+    "daily_rate": 337.19,
+    "id": 94,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/slumber-yard/00_Gallery_Image_5_hzx1vz.jpg"
+  },
+  {
+    "name": "Mountainaire Inn",
+    "city": "Blowing Rock",
+    "daily_rate": 228.34,
+    "id": 95,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/mountainaire-inn/King_Romance_Cabin_4_rplnfu.jpg"
+  },
+  {
+    "name": "Domaine Madeleine",
+    "city": "Port Angeles",
+    "daily_rate": 373.69,
+    "id": 96,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/domaine-madeleine/00_Gallery_Image_1_ss0mqo.jpg"
+  },
+  {
+    "name": "The Ridges Resort on Lake Chatuge",
+    "city": "Young Harris",
+    "daily_rate": 190.36,
+    "id": 97,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/ridges-resort-lake-chatuge/00_Gallery_Image_1_arvrd1.jpg"
+  },
+  {
+    "name": "The Independence",
+    "city": "Independence",
+    "daily_rate": 222,
+    "id": 98,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-independence/00_Gallery_Image_2_tazfyb.jpg"
+  },
+  {
+    "name": "Maxwell Mansion",
+    "city": "Lake Geneva",
+    "daily_rate": 177.44,
+    "id": 99,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/maxwell-mansion/Luke_Pfeifer_-_Stables_Fire_Pit_byyxjt.jpg"
+  },
+  {
+    "name": "Nicollet Island Inn",
+    "city": "Minneapolis",
+    "daily_rate": 113.67,
+    "id": 100,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/nicollet-island-inn/00_Gallery_Image_1_tfkigy.jpg"
+  },
+  {
+    "name": "The Gaston",
+    "city": "Dallas",
+    "daily_rate": 242.46,
+    "id": 101,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-gaston/Scott_Berlin_-_Photography_Anthology_-_Gaston_House-90_obtduw.jpg"
+  },
+  {
+    "name": "One Lakeside",
+    "city": "Coeur d'Alene",
+    "daily_rate": 481.82,
+    "id": 102,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/one-lakeside/00_Gallery_Image_4_fuuf4u.jpg"
+  },
+  {
+    "name": "Hotel Arvon",
+    "city": "Great Falls",
+    "daily_rate": 256.47,
+    "id": 103,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-arvon/Arvon_Full_Sun_m0n67m.jpg"
+  },
+  {
+    "name": "The Pollard Hotel",
+    "city": "Red Lodge",
+    "daily_rate": 328.79,
+    "id": 104,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/pollard-hotel/Hanna_Kohley_-_Pollard_Exterior_2_dcpu86.jpg"
+  },
+  {
+    "name": "Hotel Royal Oak",
+    "city": "Royal Oak",
+    "daily_rate": 362.61,
+    "id": 105,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-royal-oak/00_Hotel_Images_1_opfbdf.jpg"
+  },
+  {
+    "name": "Flamingo Hotel",
+    "city": "Cozumel",
+    "daily_rate": 431.97,
+    "id": 106,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/flamingo-hotel/IMG_9216_Thomas_Fryer_xkstj2.jpg"
+  },
+  {
+    "name": "The Paramount Hotel Seattle",
+    "city": "Seattle",
+    "daily_rate": 103.8,
+    "id": 107,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/paramount-seattle/00_Gallery_Image_9j_htfnb2.jpg"
+  },
+  {
+    "name": "The Paramount Hotel Portland",
+    "city": "Portland",
+    "daily_rate": 371.11,
+    "id": 108,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/paramount-portland/00_Gallery_Image_1_wpsdbr.jpg"
+  },
+  {
+    "name": "Maui Coast Hotel",
+    "city": "Kihei",
+    "daily_rate": 259.79,
+    "id": 109,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/maui-coast-hotel/000_Gallery_Image_2_m2pz7z.jpg"
+  },
+  {
+    "name": "Kensington Park Hotel",
+    "city": "San Francisco",
+    "daily_rate": 350.23,
+    "id": 110,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/f_auto,q_auto,c_fill,g_auto,w_739,h_493/independent hotels/kensington-park/SM4_1834-1_70-percent_mfga9z.jpg"
+  },
+  {
+    "name": "Weasku Inn",
+    "city": "Grants Pass",
+    "daily_rate": 140.56,
+    "id": 111,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/f_auto,q_auto,c_fill,g_auto,w_739,h_493/independent hotels/weasku-inn/Lawn_Erik_Johnson_jetoca.jpg"
+  },
+  {
+    "name": "Roadrunner Lodge",
+    "city": "Tucumcari",
+    "daily_rate": 350.08,
+    "id": 112,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/roadrunner-lodge/00_Hotel_Images_2_g6dvw1.jpg"
+  },
+  {
+    "name": "The Andrus Hotel",
+    "city": "Dillon",
+    "daily_rate": 143.29,
+    "id": 113,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/andrus-hotel/Hnfk_Kevin_Kapalka_re9ukr.jpg"
+  },
+  {
+    "name": "Hancock Hotel",
+    "city": "Findlay",
+    "daily_rate": 201.97,
+    "id": 114,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/f_auto,q_auto,c_fill,g_auto,w_739,h_493/independent hotels/hancock-hotel/Hancock-Exterior_Night_Abby_Hartman_wvcjse.jpg"
+  },
+  {
+    "name": "The Bay Club Hotel and Marina",
+    "city": "San Diego",
+    "daily_rate": 211.97,
+    "id": 115,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/f_auto,q_auto,c_fill,g_auto,w_739,h_493/independent hotels/bay-club-hotel-marina/Marina_View_from_Studio_Suite_Natalie_c3mdv0.jpg"
+  },
+  {
+    "name": "Maitland Manor",
+    "city": "Port Angeles",
+    "daily_rate": 356.9,
+    "id": 116,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/f_auto,q_auto,c_fill,g_auto,w_739,h_493/independent hotels/maitland-manor/Drone_Pic_Back_of_House_Sydney_Rubin_svw01b.jpg"
+  },
+  {
+    "name": "Hotel E",
+    "city": "Santa Rosa",
+    "daily_rate": 363.83,
+    "id": 117,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/f_auto,q_auto,c_fill,g_auto,w_739,h_493/independent hotels/hotel-e-santa-rosa/Exteriors-Day-Dusk-41_fsszt0.jpg"
+  },
+  {
+    "name": "Columbia Cliff Villas Hotel",
+    "city": "Hood River",
+    "daily_rate": 433.77,
+    "id": 118,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/columbia-cliff-villas/Drone_Property_photo_Tracy_m8ibcz.jpg"
+  },
+  {
+    "name": "Captain Whidbey",
+    "city": "Coupeville",
+    "daily_rate": 449.54,
+    "id": 119,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/captain-whidbey-inn/Cabin_Filson_Exterior_avpexg.jpg"
+  },
+  {
+    "name": "The Inn at Houmas House",
+    "city": "Darrow",
+    "daily_rate": 480.84,
+    "id": 120,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-at-houmas-house/00_Hotel_Images_1_ek0orf.jpg"
+  },
+  {
+    "name": "The Charmant Hotel",
+    "city": "La Crosse",
+    "daily_rate": 429.05,
+    "id": 121,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/charmant-hotel/Exterior_Shot_-_Copy_dk25oh.jpg"
+  },
+  {
+    "name": "La Tourelle Hotel & Spa",
+    "city": "Ithaca",
+    "daily_rate": 467.15,
+    "id": 122,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/la-tourelle/Front_Entrance_to_Hotel_nfskhs.jpg"
+  },
+  {
+    "name": "Shephard's Beach Resort",
+    "city": "Clearwater Beach",
+    "daily_rate": 322.23,
+    "id": 123,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/shephards-beach/extra-large-balcony-terrace_mhqeka.jpg"
+  },
+  {
+    "name": "Running Y Resort",
+    "city": "Klamath Falls",
+    "daily_rate": 192.31,
+    "id": 124,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/running-y-resort/Lodge_Back_Fall_Running_Y_Ranch_sq7joe.jpg"
+  },
+  {
+    "name": "Hotel Hartness",
+    "city": "Greenville",
+    "daily_rate": 121.56,
+    "id": 125,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-hartness/Captain_knxvvu.jpg"
+  },
+  {
+    "name": "Winter Park Chateau",
+    "city": "Winter Park",
+    "daily_rate": 307.83,
+    "id": 126,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/winter-park-chateau/CHATEAU-32_Matthew_Korte_syfqb3.jpg"
+  },
+  {
+    "name": "Blue Ridge Inn Bed and Breakfast",
+    "city": "Blue Ridge",
+    "daily_rate": 336.28,
+    "id": 127,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/blue-ridge-inn/SpecificRoom3-parlor_John_Lavin_qsgb0z.jpg"
+  },
+  {
+    "name": "The Inn at Blackstone",
+    "city": "Blackstone",
+    "daily_rate": 387,
+    "id": 128,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-at-blackstone/CS3_0002_aqdrbi.jpg"
+  },
+  {
+    "name": "The Berkeley Hotel",
+    "city": "Richmond",
+    "daily_rate": 235.77,
+    "id": 129,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/berkeley-hotel/Berkeley_1_fw6yhf.jpg"
+  },
+  {
+    "name": "Canyons Boutique Hotel",
+    "city": "Kanab",
+    "daily_rate": 164.83,
+    "id": 130,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/canyons-boutique-hotel/20210110_102630_rebecca_-_DELUXE_KING_da0pd0.jpg"
+  },
+  {
+    "name": "Canyons Lodge",
+    "city": "Kanab",
+    "daily_rate": 348.7,
+    "id": 131,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/canyons-lodge/IMG_2785_rebecca_staples_b9dws4.jpg"
+  },
+  {
+    "name": "Elevation Lofts Hotel",
+    "city": "Asheville",
+    "daily_rate": 391.03,
+    "id": 132,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/elevation-lofts/301_Living_Room-August_2_2021-795A1597_John_Zellers_1_zpnndh.jpg"
+  },
+  {
+    "name": "Blue Dolphin Inn",
+    "city": "Cambria",
+    "daily_rate": 238.61,
+    "id": 133,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/blue-dolphin-inn/40112228_rifex2.jpg"
+  },
+  {
+    "name": "Sand Pebbles Inn",
+    "city": "Cambria",
+    "daily_rate": 119.78,
+    "id": 134,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sand-pebbles-inn/Room_Detail_6_mzw6gu.jpg"
+  },
+  {
+    "name": "Castle Inn",
+    "city": "Cambria",
+    "daily_rate": 284.12,
+    "id": 135,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/castle-inn/Castle_Entrance_gdeoag.jpg"
+  },
+  {
+    "name": "Moonstone Cottages",
+    "city": "Cambria",
+    "daily_rate": 496.96,
+    "id": 136,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/moonstone-cottages/Other_1_tmuzd0.jpg"
+  },
+  {
+    "name": "Albergo Allegria",
+    "city": "Windham",
+    "daily_rate": 307.13,
+    "id": 137,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/albergo-allegria/MSH__B4A7472_COVER_Marianna_Leman_di6ujn.jpg"
+  },
+  {
+    "name": "Magnolia Springs Bed and Breakfast",
+    "city": "Magnolia Springs",
+    "daily_rate": 417.54,
+    "id": 138,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/magnolia-springs-bandb/MagnoliaSprings-Exterior-Facade-1_xgnkiu.jpg"
+  },
+  {
+    "name": "The Sidney Pier Hotel & Spa",
+    "city": "Sidney",
+    "daily_rate": 312.67,
+    "id": 139,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sidney-pier-hotel-spa/9_-_Exterior_Lisa_ahwxz9.jpg"
+  },
+  {
+    "name": "BlissWood Bed and Breakfast Ranch",
+    "city": "Cat Spring",
+    "daily_rate": 283.38,
+    "id": 140,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/blisswood-bandb/bluebonnet-bungalow-exterior_Kelly_Garbarino_k8t0ru.jpg"
+  },
+  {
+    "name": "The Yellow House on Plott Creek Road",
+    "city": "Waynesville",
+    "daily_rate": 307.7,
+    "id": 141,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/yellow-house/Yellow_House_Front_Yard_dtpkon.jpg"
+  },
+  {
+    "name": "Idlwilde Inn",
+    "city": "Watkins Glen",
+    "daily_rate": 265.98,
+    "id": 142,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/idlwilde-inn/Exterior_-_Porch_-_Idlwilde_-_June_2018_4_Marcus_Dowd_star2l.jpg"
+  },
+  {
+    "name": "The Inn on West Liberty",
+    "city": "Savannah",
+    "daily_rate": 375.04,
+    "id": 143,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-on-west-liberty/Inn-West-Liberty-CommonPatio_dkpyle.jpg"
+  },
+  {
+    "name": "The Armory Park Inn",
+    "city": "Tucson",
+    "daily_rate": 282.23,
+    "id": 144,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/armory-park-inn/RA-fountain_mpvwip.jpg"
+  },
+  {
+    "name": "Geneseo Inn",
+    "city": "Paso Robles",
+    "daily_rate": 324.81,
+    "id": 145,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/geneseo-inn/GeneseoInn-109_riticl.jpg"
+  },
+  {
+    "name": "Watchman Villas",
+    "city": "Springdale",
+    "daily_rate": 150.63,
+    "id": 146,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/watchman-villas/Villas_2-_5_shfjht.jpg"
+  },
+  {
+    "name": "Alcazar Palm Springs",
+    "city": "Palm Springs",
+    "daily_rate": 474.13,
+    "id": 147,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/alcazar/Mollie_Kimberling_Alcazar_11of29_lmakjo.jpg"
+  },
+  {
+    "name": "Bellevue Club Hotel",
+    "city": "Bellevue",
+    "daily_rate": 426.86,
+    "id": 148,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/bellevue-club-hotel/0822-11200_BellvueClub_Bellevue-Tankovich-42_Bryan_Palmese_o2zu4e.jpg"
+  },
+  {
+    "name": "The Burrard",
+    "city": "Vancouver",
+    "daily_rate": 254.44,
+    "id": 149,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/burrard-hotel/The_Burrard_Life_Style_0815_Darren_Simpson_yclx0j.jpg"
+  },
+  {
+    "name": "The Bungalows at Zion",
+    "city": "Springdale",
+    "daily_rate": 206.47,
+    "id": 150,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/bungalows-at-zion/Cholla_19_ti9t6m.jpg"
+  },
+  {
+    "name": "Auberge Vancouver Hotel",
+    "city": "Vancouver",
+    "daily_rate": 211.26,
+    "id": 151,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/auberge-vancouver/Auberge-01-RM-1203-Web_Ali_Yesilyurt_peu3yr.jpg"
+  },
+  {
+    "name": "The Inn at Key Falls Estate",
+    "city": "Pisgah Forest",
+    "daily_rate": 238.27,
+    "id": 152,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/key-falls-inn/00_Hotel_Images_1_yr5q98.jpg"
+  },
+  {
+    "name": "The Dwellings",
+    "city": "La Verkin",
+    "daily_rate": 363.82,
+    "id": 153,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-dwellings/Amazing_View_3_Meagan_Adent_boefhg.jpg"
+  },
+  {
+    "name": "Evening Shade Inn",
+    "city": "Eureka Springs",
+    "daily_rate": 160.68,
+    "id": 154,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/evening-shade-inn/20191102_150353_Shira_Fouste_cvy7dg.jpg"
+  },
+  {
+    "name": "Pine River Ranch",
+    "city": "Leavenworth",
+    "daily_rate": 203.91,
+    "id": 155,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/pine-river-ranch/z-main_xb2bbu.jpg"
+  },
+  {
+    "name": "Obertal Inn",
+    "city": "Leavenworth",
+    "daily_rate": 426.8,
+    "id": 156,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/obertal-inn/exterior-new.jpg"
+  },
+  {
+    "name": "Inn on Main",
+    "city": "Yarmouth Port",
+    "daily_rate": 172.97,
+    "id": 157,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-on-main/z-exterior_8_in33ue.jpg"
+  },
+  {
+    "name": "Remington Flats",
+    "city": "Fort Collins",
+    "daily_rate": 207.09,
+    "id": 158,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/remington-flats/remington_om79ig.jpg"
+  },
+  {
+    "name": "Pemberton Valley Lodge",
+    "city": "Pemberton",
+    "daily_rate": 273.36,
+    "id": 159,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/pemberton-valley-lodge/Exterior_4_ofr1pe.jpg"
+  },
+  {
+    "name": "Stirling All Suites Hotel",
+    "city": "Nelson",
+    "daily_rate": 352.73,
+    "id": 160,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/stirling-suites/00_Amenities_01_nvgqpu.jpg"
+  },
+  {
+    "name": "Blessings on State Bed & Breakfast",
+    "city": "Jacksonville",
+    "daily_rate": 163.57,
+    "id": 161,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/blessings-on-state/01-hero01_fpsynx.jpg"
+  },
+  {
+    "name": "Marcus Whitman Hotel",
+    "city": "Walla Walla",
+    "daily_rate": 269.59,
+    "id": 162,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/marcus-whitman-hotel/00_Exterior_1_vwj5ls.jpg"
+  },
+  {
+    "name": "North Beach Villa",
+    "city": "San Clemente",
+    "daily_rate": 154.36,
+    "id": 163,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/north-beach-villa/trip_o2x5cw.jpg"
+  },
+  {
+    "name": "The Seagull Inn",
+    "city": "Mendocino",
+    "daily_rate": 444.73,
+    "id": 164,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/seagull-inn/Amenities_Exterior_1_p810tf.jpg"
+  },
+  {
+    "name": "The Historic Blue Moon Hotel",
+    "city": "New York",
+    "daily_rate": 235.72,
+    "id": 165,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/blue-moon-hotel/Other_2_ill1rp.jpg"
+  },
+  {
+    "name": "Bay Pointe",
+    "city": "Shelbyville",
+    "daily_rate": 380.13,
+    "id": 166,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/bay-pointe-inn/Architecture_1_ebioxs.jpg"
+  },
+  {
+    "name": "The Wilmington Inn",
+    "city": "Wilmington",
+    "daily_rate": 435.5,
+    "id": 167,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/wilmington-inn/Exterior_Hill-web_Charlie_Foster_p0niaw.jpg"
+  },
+  {
+    "name": "The Mark Spencer Hotel",
+    "city": "Portland",
+    "daily_rate": 258.51,
+    "id": 168,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/mark-spencer-hotel/Other_29_xeehct.jpg"
+  },
+  {
+    "name": "Hotel Rialto",
+    "city": "Victoria",
+    "daily_rate": 185.65,
+    "id": 169,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-rialto/Pandora_Entrance_Natalie_ytmdxc.jpg"
+  },
+  {
+    "name": "Azalea Garden Inn",
+    "city": "Blowing Rock",
+    "daily_rate": 120.91,
+    "id": 170,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/azalea-garden-inn/Azalea_Garden_Inn_Exterior_Details_1_Sarah_Leffler_thjapa.jpg"
+  },
+  {
+    "name": "The 505 Eugene",
+    "city": "Eugene",
+    "daily_rate": 277.65,
+    "id": 171,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/fiveofive-eugene/exterior_1_e2iyh1.jpg"
+  },
+  {
+    "name": "Sun Mountain Lodge",
+    "city": "Winthrop",
+    "daily_rate": 446.1,
+    "id": 172,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sun-mountain/00_Gallery_Image_27_w34vwn.jpg"
+  },
+  {
+    "name": "Magnolia Hotel",
+    "city": "Jacksonville",
+    "daily_rate": 260.8,
+    "id": 173,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/magnolia-hotel/outside_of_hotel_nikki_bale_1_azcvit.jpg"
+  },
+  {
+    "name": "Crown Isle Resort and Golf Community",
+    "city": "Courtenay",
+    "daily_rate": 354.47,
+    "id": 174,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/crown-isle-resort/00_Crown_Isle_Resort_2_ujzzyt.jpg"
+  },
+  {
+    "name": "Topnotch Resort",
+    "city": "Stowe",
+    "daily_rate": 134.42,
+    "id": 175,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/topnotch-resort/00_Amenities_6_ovv2ph.jpg"
+  },
+  {
+    "name": "Crown Mansion Boutique Hotel",
+    "city": "Qualicum Beach",
+    "daily_rate": 323.59,
+    "id": 176,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/crown-mansion-hotel/00_Gallery_Image_1_o8r9or.jpg"
+  },
+  {
+    "name": "At Home in the Tropics",
+    "city": "Charlotte Amalie, St Thomas",
+    "daily_rate": 230.64,
+    "id": 177,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/at-home-in-the-tropics/Other_Again_1_kiamxc.jpg"
+  },
+  {
+    "name": "Park Place Hotel",
+    "city": "Ocean City",
+    "daily_rate": 320.15,
+    "id": 178,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/park-place-hotel/00_Park_Place_Hotel_1_pdb9lz.jpg"
+  },
+  {
+    "name": "Balch Hotel",
+    "city": "Dufur",
+    "daily_rate": 302.41,
+    "id": 179,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/balch-hotel/Amenities_1_vwkvgx.jpg"
+  },
+  {
+    "name": "The Inn at Entrada",
+    "city": "St. George",
+    "daily_rate": 140.26,
+    "id": 180,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-at-entrada/Amenities_12_mc572r.jpg"
+  },
+  {
+    "name": "Los Arboles Hotel",
+    "city": "Palm Springs",
+    "daily_rate": 180.75,
+    "id": 181,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/los-arboles/00_Other_Images_12_w6vpsk.jpg"
+  },
+  {
+    "name": "Seattle Gaslight Inn",
+    "city": "Seattle",
+    "daily_rate": 203.44,
+    "id": 182,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/seattle-gaslight-inn/Amenities_1_tyhtva.jpg"
+  },
+  {
+    "name": "Dive Palm Springs",
+    "city": "Palm Springs",
+    "daily_rate": 296.4,
+    "id": 183,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/dive-palm-springs/00_Hotel_Images_3_ntlcub.jpg"
+  },
+  {
+    "name": "Talavera Palm Springs",
+    "city": "Palm Springs",
+    "daily_rate": 451.26,
+    "id": 184,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/talavera-palm-springs/00_Hotel_Images_5_pmac8z.jpg"
+  },
+  {
+    "name": "Heritage House",
+    "city": "Opelika",
+    "daily_rate": 196.96,
+    "id": 185,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/heritage-house/Full_House_1_aih4ro.jpg"
+  },
+  {
+    "name": "The Antlers Inn",
+    "city": "Kingsland",
+    "daily_rate": 397.06,
+    "id": 186,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/antlers-inn/00_Hotel_Images_7_gront0.jpg"
+  },
+  {
+    "name": "Worthington of Logan",
+    "city": "Logan",
+    "daily_rate": 370.91,
+    "id": 187,
+    "has_member_rate": true,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/worthington-of-logan/00_Hotel_Images_9j_cjjpur.jpg"
+  },
+  {
+    "name": "Outlook Inn on Orcas Island",
+    "city": "Eastsound",
+    "daily_rate": 348.19,
+    "id": 188,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/outlook-inn-orcas-island/00_Images_5_rjrfz9.jpg"
+  },
+  {
+    "name": "Hotel Donaldson",
+    "city": "Fargo",
+    "daily_rate": 260.6,
+    "id": 189,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-donaldson/00_Hotel_Images_22_vtejud.jpg"
+  },
+  {
+    "name": "The Inn at Harbor Shores",
+    "city": "St. Joseph",
+    "daily_rate": 476.77,
+    "id": 190,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-at-harbor-shores/00_Other_Images_2_yueeis.jpg"
+  },
+  {
+    "name": "Hotel Paisano",
+    "city": "Marfa",
+    "daily_rate": 317.87,
+    "id": 191,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-paisano/00_Hotel_Images_6_zymgni.jpg"
+  },
+  {
+    "name": "The Lodge at Cloudcroft",
+    "city": "Cloudcroft",
+    "daily_rate": 154.64,
+    "id": 192,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lodge-at-cloudcroft/00_Gallery_Image_1_jifnsq.jpg"
+  },
+  {
+    "name": "Sun Peaks Grand Hotel & Conference Centre",
+    "city": "Sun Peaks",
+    "daily_rate": 465.2,
+    "id": 193,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sun-peaks-grand/00_Hotel_Images_1_uptouf.jpg"
+  },
+  {
+    "name": "The Brunswick Hotel",
+    "city": "Brunswick",
+    "daily_rate": 327.31,
+    "id": 194,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/brunswick-hotel/00_Gallery_Image_1_zkzoha.jpg"
+  },
+  {
+    "name": "BridgeWalk Resort",
+    "city": "Bradenton Beach",
+    "daily_rate": 150.45,
+    "id": 195,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/bridgewalk/00_Hotel_Images_6_drisqi.jpg"
+  },
+  {
+    "name": "Silver Surf Gulf Beach Resort",
+    "city": "Bradenton Beach",
+    "daily_rate": 381.43,
+    "id": 196,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/silversurf-resort/00_Hotel_Images_1_bk0vzh.jpg"
+  },
+  {
+    "name": "TinyCamp Sedona & TinyCamp Cottonwood",
+    "city": "Sedona",
+    "daily_rate": 176.8,
+    "id": 197,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/tinycamp-sedona/00_Gallery_Image_08_aotypy.jpg"
+  },
+  {
+    "name": "The Lancaster Manor Historic Bed & Breakfast",
+    "city": "Gainesville",
+    "daily_rate": 273.41,
+    "id": 198,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lancaster-manor/00_Gallery_Image_1_lddyhh.jpg"
+  },
+  {
+    "name": "Woodrow House Bed and Breakfast",
+    "city": "Lubbock",
+    "daily_rate": 424.51,
+    "id": 199,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/woodrow-house/00_Gallery_Image_1_g5pv41.jpg"
+  },
+  {
+    "name": "Inn of the Governors",
+    "city": "Santa Fe",
+    "daily_rate": 226.37,
+    "id": 200,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-governors/00_Gallery_Image_1_z8oi65.jpg"
+  },
+  {
+    "name": "Lake Placid Inn",
+    "city": "Lake Placid",
+    "daily_rate": 296.96,
+    "id": 201,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lake-placid-inn/00_Gallery_Image_1a_iki8mx.jpg"
+  },
+  {
+    "name": "The Inn and Spa at Intercourse Village",
+    "city": "Intercourse",
+    "daily_rate": 449.11,
+    "id": 202,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-spa-intercourse-village/00_Gallery_Image_1_irjlfw.jpg"
+  },
+  {
+    "name": "Hotel Palms",
+    "city": "Atlantic Beach",
+    "daily_rate": 228.3,
+    "id": 203,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-palms/00_Gallery_Image_1_ihwgbp.jpg"
+  },
+  {
+    "name": "White Swan Inn",
+    "city": "San Francisco",
+    "daily_rate": 131.92,
+    "id": 204,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/white-swan-inn/00_Gallery_Image_1_t4gvgt.jpg"
+  },
+  {
+    "name": "Hotel La More at The Bisbee Inn",
+    "city": "Bisbee",
+    "daily_rate": 187.61,
+    "id": 205,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-la-more/00_Gallery_Image_1_vyonrz.jpg"
+  },
+  {
+    "name": "The Avery",
+    "city": "Boise",
+    "daily_rate": 498.33,
+    "id": 206,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-avery/000_Gallery_Image_1_phzvft.jpg"
+  },
+  {
+    "name": "Agate Beach Motel",
+    "city": "Newport",
+    "daily_rate": 476.14,
+    "id": 207,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/agate-beach-motel/00_Gallery_Image_1_zmdkdb.jpg"
+  },
+  {
+    "name": "Wall Street Suites",
+    "city": "Bend",
+    "daily_rate": 466.11,
+    "id": 208,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/wall-street-suites/00_Gallery_2_ldddsl.jpg"
+  },
+  {
+    "name": "The Driftwood Inn",
+    "city": "Homer",
+    "daily_rate": 122.15,
+    "id": 209,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/driftwood-inn/00_Gallery_Image_1_kamjcl.jpg"
+  },
+  {
+    "name": "Wilder & Pine Riverside Cabins",
+    "city": "Stevenson",
+    "daily_rate": 454.53,
+    "id": 210,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/wilder-and-pine/00_Gallery_Image_1_kcbgll.jpg"
+  },
+  {
+    "name": "The Sapphire Motel",
+    "city": "Bozeman",
+    "daily_rate": 398.78,
+    "id": 211,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sapphire-motel/00_Gallery_Image_1_wbeomx.jpg"
+  },
+  {
+    "name": "Kona Kai Resort",
+    "city": "Key Largo",
+    "daily_rate": 294.66,
+    "id": 212,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/kona-kai-resort/00_Gallery_Image_1_v3w5lz.jpg"
+  },
+  {
+    "name": "Callicoon Hills",
+    "city": "Callicoon Center",
+    "daily_rate": 149.98,
+    "id": 213,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/callicoon-hills-resort/00_Gallery_Image_1_j1wqs6.jpg"
+  },
+  {
+    "name": "The Lodge at Whitefish Lake",
+    "city": "Whitefish",
+    "daily_rate": 287.34,
+    "id": 214,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lodge-at-whitefish-lake/00_Gallery_Image_1_mvchc9.jpg"
+  },
+  {
+    "name": "Lexen Hotel Newhall",
+    "city": "Santa Clarita",
+    "daily_rate": 264.73,
+    "id": 215,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-lexen-newhall/00_Gallery_Image_1_ezgovn.jpg"
+  },
+  {
+    "name": "Lexen Hotel North Hollywood",
+    "city": "North Hollywood",
+    "daily_rate": 487.79,
+    "id": 216,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-lexen-north-hollywood/00_Gallery_Image_1_mrnyzp.jpg"
+  },
+  {
+    "name": "The Acoma House",
+    "city": "Denver",
+    "daily_rate": 225.41,
+    "id": 217,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/acoma-house/00_Gallery_Image_1_v9mlrb.jpg"
+  },
+  {
+    "name": "Anacortes Inn",
+    "city": "Anacortes",
+    "daily_rate": 150.24,
+    "id": 218,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/anacortes-inn/00_Gallery_Image_1_wrj9mh.jpg"
+  },
+  {
+    "name": "Bluff Dwellings Resort",
+    "city": "Bluff",
+    "daily_rate": 339.63,
+    "id": 219,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/bluff-dwellings-resort/00_Gallery_Image_1_uum3y4.jpg"
+  },
+  {
+    "name": "Sweetwater Branch Inn",
+    "city": "Gainesville",
+    "daily_rate": 437.44,
+    "id": 220,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sweetwater-branch-inn/00_Gallery_Image_1_wkyoxa.jpg"
+  },
+  {
+    "name": "Snowbird Mountain Lodge",
+    "city": "Robbinsville",
+    "daily_rate": 376.16,
+    "id": 221,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/snowbird-mountain-lodge/00_Gallery_Image_1_upksom.jpg"
+  },
+  {
+    "name": "Skyline Lodge",
+    "city": "Highlands",
+    "daily_rate": 151.33,
+    "id": 222,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/skyline-lodge/00_Gallery_Image_1_tvyqdu.jpg"
+  },
+  {
+    "name": "Bridge Creek Inn",
+    "city": "Clayton",
+    "daily_rate": 207.71,
+    "id": 223,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/bridge-creek-inn/00_Gallery_Image_1_lujy8x.jpg"
+  },
+  {
+    "name": "The George",
+    "city": "Georgetown",
+    "daily_rate": 323.23,
+    "id": 224,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/george-hotel/00_Gallery_Image_1_xq6too.jpg"
+  },
+  {
+    "name": "The Bee",
+    "city": "Danville",
+    "daily_rate": 376.23,
+    "id": 225,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-bee/00_Gallery_Image_1_b4zwny.jpg"
+  },
+  {
+    "name": "The Holbrook Hotel",
+    "city": "Danville",
+    "daily_rate": 183.88,
+    "id": 226,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/holbrook-hotel/00_Gallery_Image_1_v5evle.jpg"
+  },
+  {
+    "name": "The SPARROW",
+    "city": "Boise",
+    "daily_rate": 380.85,
+    "id": 227,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-sparrow/00_Gallery_Image_1_nwygjy.jpg"
+  },
+  {
+    "name": "The Lofts at Downtown Salem",
+    "city": "Salem",
+    "daily_rate": 117.1,
+    "id": 228,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lofts-downtown-salem/00_Gallery_Image_1_xl3pxq.jpg"
+  },
+  {
+    "name": "Hotel Deco",
+    "city": "Omaha",
+    "daily_rate": 192.94,
+    "id": 229,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-deco/00_Gallery_Image_1a_yocbhm.jpg"
+  },
+  {
+    "name": "Foxhall Resort",
+    "city": "Douglasville",
+    "daily_rate": 199.17,
+    "id": 230,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/foxhall-resort/00_Gallery_Image_1_kl0gok.jpg"
+  },
+  {
+    "name": "Canalside Inn",
+    "city": "Rehoboth Beach",
+    "daily_rate": 242.48,
+    "id": 231,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/canalside-inn/00_Gallery_Image_1_ejrpkr.jpg"
+  },
+  {
+    "name": "SALT Hotel & Pub",
+    "city": "Ilwaco",
+    "daily_rate": 143.72,
+    "id": 232,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/salt-hotel-pub/00_Gallery_Image_1_fmhrmc.jpg"
+  },
+  {
+    "name": "Penn Wells Hotel",
+    "city": "Wellsboro",
+    "daily_rate": 264.9,
+    "id": 233,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/penn-wells-hotel/00_Gallery_Image_1_vqgxkb.jpg"
+  },
+  {
+    "name": "Penn Wells Lodge",
+    "city": "Wellsboro",
+    "daily_rate": 178.6,
+    "id": 234,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/penn-wells-lodge/00_Gallery_Image_1_qkrfdg.jpg"
+  },
+  {
+    "name": "Inn at the Presidio",
+    "city": "San Francisco",
+    "daily_rate": 370.92,
+    "id": 235,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-at-the-presidio/00_Gallery_Image_9m_qqarae.jpg"
+  },
+  {
+    "name": "Lodge at the Presidio",
+    "city": "San Francisco",
+    "daily_rate": 322.89,
+    "id": 236,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lodge-at-the-presidio/00_Gallery_Image_1_hurkmj.jpg"
+  },
+  {
+    "name": "The Literary Hotel",
+    "city": "Solon",
+    "daily_rate": 211.4,
+    "id": 237,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/literary-hotel/00_Gallery_Image_1_oyymbv.jpg"
+  },
+  {
+    "name": "The Lodge at Columbia Point",
+    "city": "Richland",
+    "daily_rate": 370.85,
+    "id": 238,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lodge-at-columbia-point/00_Gallery_Image_1_y4bhqt.jpg"
+  },
+  {
+    "name": "The Lenox Collection",
+    "city": "Lenox",
+    "daily_rate": 114.2,
+    "id": 239,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lenox-collection/000_Gallery_Image_1_at9hzr.jpg"
+  },
+  {
+    "name": "Cougar Ridge",
+    "city": "Torrey",
+    "daily_rate": 183.2,
+    "id": 240,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/cougar-ridge-resort/00_Gallery_Image_1_ae0dui.jpg"
+  },
+  {
+    "name": "Princess Royale Oceanfront Resort",
+    "city": "Ocean City",
+    "daily_rate": 257.74,
+    "id": 241,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/princess-royale-resort/00_Gallery_Image_1_c3n3ad.jpg"
+  },
+  {
+    "name": "Fairways Hotel on the Mountain",
+    "city": "Langford",
+    "daily_rate": 164.33,
+    "id": 242,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/fairways-hotel/00_Gallery_Image_1_wp1qne.jpg"
+  },
+  {
+    "name": "Angoria Hotel",
+    "city": "San Angelo",
+    "daily_rate": 336.3,
+    "id": 243,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/angoria-hotel/00_Gallery_Image_1_nz6u6b.jpg"
+  },
+  {
+    "name": "The Monte Vista Hotel",
+    "city": "Black Mountain",
+    "daily_rate": 163.52,
+    "id": 244,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/monte-vista-hotel/00_Gallery_Image_1_fdq1rn.jpg"
+  },
+  {
+    "name": "The Inn at Lost River",
+    "city": "Lost City",
+    "daily_rate": 474.03,
+    "id": 245,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-on-lost-river/00_Gallery_Image_1_okjlga.jpg"
+  },
+  {
+    "name": "Rivet House",
+    "city": "Athens",
+    "daily_rate": 152.11,
+    "id": 246,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/rivet-house/000_Gallery_Image_1_c0hdk4.jpg"
+  },
+  {
+    "name": "Jade Jungle Resort",
+    "city": "Teakettle",
+    "daily_rate": 145.79,
+    "id": 247,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/jade-jungle-resort/00_Gallery_Image_02_qrgqj7.jpg"
+  },
+  {
+    "name": "The Kent Motel",
+    "city": "Queenston",
+    "daily_rate": 183.96,
+    "id": 248,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/kent-motel/00_Gallery_Image_2_fthglz.jpg"
+  },
+  {
+    "name": "La Mer Beachfront Resort",
+    "city": "Cape May",
+    "daily_rate": 130.8,
+    "id": 249,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/la-mer-beachfront-resort/00_Gallery_Image_1_kppwzm.jpg"
+  },
+  {
+    "name": "Beach Club on Madison Ave",
+    "city": "Cape May",
+    "daily_rate": 392.85,
+    "id": 250,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/beach-club-on-madison/00_Gallery_Image_1_gvjq0z.jpg"
+  },
+  {
+    "name": "1929 Hotel Seville",
+    "city": "Harrison",
+    "daily_rate": 380.89,
+    "id": 251,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-seville/00_Gallery_Image_1_uz4jeo.jpg"
+  },
+  {
+    "name": "Bardstown Motor Lodge",
+    "city": "Bardstown",
+    "daily_rate": 295.06,
+    "id": 252,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/bardstown-motor-lodge/00_Gallery_Image_1_lzl33m.jpg"
+  },
+  {
+    "name": "The Myriad Hotel",
+    "city": "Louisville",
+    "daily_rate": 451.55,
+    "id": 253,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/myriad-hotel/00_Gallery_Image_1_ltggil.jpg"
+  },
+  {
+    "name": "Irish Cottage Inn & Suites",
+    "city": "Galena",
+    "daily_rate": 369.25,
+    "id": 254,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/irish-cottage-inn-suites/00_Gallery_Image_1_zyxaus.jpg"
+  },
+  {
+    "name": "The Flat Iron Hotel",
+    "city": "Asheville",
+    "daily_rate": 165.14,
+    "id": 255,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/flat-iron-hotel/00_Gallery_Image_1_bxl44z.jpg"
+  },
+  {
+    "name": "High Peaks Resort",
+    "city": "Lake Placid",
+    "daily_rate": 475.9,
+    "id": 256,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/high-peaks-resort/00_Gallery_Image_1_oyu1hr.jpg"
+  },
+  {
+    "name": "The Grand Resort",
+    "city": "Warren",
+    "daily_rate": 400.29,
+    "id": 257,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-grand-resort/00_Gallery_Image_7_hbdae4.jpg"
+  },
+  {
+    "name": "Inn at Laurel Point",
+    "city": "Victoria",
+    "daily_rate": 463.98,
+    "id": 258,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-at-laurel-point/00_Gallery_Image_1_jecze5.jpg"
+  },
+  {
+    "name": "The Local Motel & Shops",
+    "city": "Eugene",
+    "daily_rate": 483.77,
+    "id": 259,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/local-motel-shops/00_Gallery_Image_1_wqtghz.jpg"
+  },
+  {
+    "name": "Ancient Lore Village",
+    "city": "Knoxville",
+    "daily_rate": 190.33,
+    "id": 260,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/ancient-lore-village/00_Gallery_Image_1_vcsyb7.jpg"
+  },
+  {
+    "name": "The Berkman",
+    "city": "Rochester",
+    "daily_rate": 196.06,
+    "id": 261,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/the-berkman/00_Gallery_Image_1_aekseu.jpg"
+  },
+  {
+    "name": "The Allison Inn & Spa",
+    "city": "Newberg",
+    "daily_rate": 349.83,
+    "id": 262,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/allison-inn-and-spa/001_Gallery_Image_1_yzethu.jpg"
+  },
+  {
+    "name": "Grand Caribe Belize",
+    "city": "San Pedro",
+    "daily_rate": 169.73,
+    "id": 263,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/grande-caribe-belize/00_Gallery_Image_1_kvikmj.jpg"
+  },
+  {
+    "name": "Sunset Caribe Belize",
+    "city": "San Pedro",
+    "daily_rate": 496.94,
+    "id": 264,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sunset-caribe-belize/00_Gallery_Image_1_i5wzdj.jpg"
+  },
+  {
+    "name": "La Casa Del Zorro Desert Resort & Spa",
+    "city": "Borrego Springs",
+    "daily_rate": 496.71,
+    "id": 265,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/la-casa-del-zorro-resort-spa/00_Gallery_Image_1_jspr1z.jpg"
+  },
+  {
+    "name": "Greenwood Plantation Bed and Breakfast",
+    "city": "St. Francisville",
+    "daily_rate": 272.05,
+    "id": 266,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/greenwood-plantation/00_Gallery_Image_1_ty8fef.jpg"
+  },
+  {
+    "name": "Hotel 27",
+    "city": "Greenville",
+    "daily_rate": 297.18,
+    "id": 267,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel27/00_Gallery_Image_1_am8npm.jpg"
+  },
+  {
+    "name": "Hotel Herringbone",
+    "city": "Waco",
+    "daily_rate": 223.1,
+    "id": 268,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-herringbone/000_Gallery_Image_2_k0pnuj.jpg"
+  },
+  {
+    "name": "Chateau on the Lake Resort Spa & Convention Center",
+    "city": "Branson",
+    "daily_rate": 264.56,
+    "id": 269,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/chateau-on-the-lake/00_Gallery_Image_1_om2l78.jpg"
+  },
+  {
+    "name": "The Mercantile Hotel",
+    "city": "New Orleans",
+    "daily_rate": 273.21,
+    "id": 270,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/mercantile-hotel/00_Gallery_Image_1_s0esbz.jpg"
+  },
+  {
+    "name": "The Normandy Hotel",
+    "city": "Washington",
+    "daily_rate": 437.05,
+    "id": 271,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/normandy-hotel/00_Gallery_Image_1_z3hplh.jpg"
+  },
+  {
+    "name": "Inn by the Sea",
+    "city": "La Jolla",
+    "daily_rate": 108.38,
+    "id": 272,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-by-the-sea/00_Gallery_Image_1_xwujjx.jpg"
+  },
+  {
+    "name": "La Puesta Sayulita",
+    "city": "Sayulita",
+    "daily_rate": 203.13,
+    "id": 273,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/la-puesta-sayulita/00_Gallery_Image_1_ucmpuz.jpg"
+  },
+  {
+    "name": "Inn on Broadway",
+    "city": "Rochester",
+    "daily_rate": 461.55,
+    "id": 274,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/inn-on-broadway/00_Gallery_Image_1_ipmpen.jpg"
+  },
+  {
+    "name": "Hotel Richemont",
+    "city": "Charleston",
+    "daily_rate": 105.63,
+    "id": 275,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-richemont/00_Gallery_Image_1_ez4xsn.jpg"
+  },
+  {
+    "name": "La Esquina",
+    "city": "Sayulita",
+    "daily_rate": 226.77,
+    "id": 276,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/la-esquina/00_Gallery_Image_9c_t3btqs.jpg"
+  },
+  {
+    "name": "Mission Resort and Club",
+    "city": "Howey-In-The-Hills",
+    "daily_rate": 228.12,
+    "id": 277,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/mission-resort-club/00_Gallery_Image_1_cm0409.jpg"
+  },
+  {
+    "name": "Casa Pata Salada",
+    "city": "Sayulita",
+    "daily_rate": 174.64,
+    "id": 278,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/casa-pata-salada/00_Gallery_Image_1_uxo2ho.jpg"
+  },
+  {
+    "name": "Plunge Beach Resort",
+    "city": "Lauderdale-By-The-Sea",
+    "daily_rate": 210.32,
+    "id": 279,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/plunge-beach-resort/00_Gallery_Image_2_dhcsgz.jpg"
+  },
+  {
+    "name": "Meeting House",
+    "city": "Falls Church",
+    "daily_rate": 118.48,
+    "id": 280,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/meeting-house/000_Gallery_Image_1_ytsa1w.jpg"
+  },
+  {
+    "name": "The Paloma Resort",
+    "city": "Cathedral City",
+    "daily_rate": 273.64,
+    "id": 281,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/paloma-resort/00_Gallery_Image_9j_ydri5b.jpg"
+  },
+  {
+    "name": "The Twist",
+    "city": "Palm Springs",
+    "daily_rate": 126.28,
+    "id": 282,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/twist/00_Gallery_Image_4_xzoits.jpg"
+  },
+  {
+    "name": "The Grand Idyllwild Lodge",
+    "city": "Idyllwild",
+    "daily_rate": 424.37,
+    "id": 283,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/grand-idyllwild-lodge/00_Gallery_Image_1_n2t0l4.jpg"
+  },
+  {
+    "name": "The Creekstone",
+    "city": "Idyllwild",
+    "daily_rate": 215.67,
+    "id": 284,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/creekstone/00_Gallery_Image_1_jy1uta.jpg"
+  },
+  {
+    "name": "The Delphi",
+    "city": "Los Angeles",
+    "daily_rate": 494.69,
+    "id": 285,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/delphi/00_Gallery_Image_1_in7m6l.jpg"
+  },
+  {
+    "name": "The Longleaf Hotel",
+    "city": "Raleigh",
+    "daily_rate": 441.1,
+    "id": 286,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/longleaf/00_Gallery_Image_1_dmkmen.jpg"
+  },
+  {
+    "name": "Guest House Raleigh",
+    "city": "Raleigh",
+    "daily_rate": 273.63,
+    "id": 287,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/guest-house-raleigh/00_Gallery_Image_1_xltq7t.jpg"
+  },
+  {
+    "name": "Rhode's Motor Lodge",
+    "city": "Boone",
+    "daily_rate": 493.83,
+    "id": 288,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/rhodes-motor-lodge/00_Gallery_Image_1_kpkrfw.jpg"
+  },
+  {
+    "name": "Stagecoach Inn",
+    "city": "Salado",
+    "daily_rate": 380.24,
+    "id": 289,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/stagecoach-inn/00_Gallery_Image_9i_jtfauj.jpg"
+  },
+  {
+    "name": "Sunshine Mountain Lodge",
+    "city": "Banff",
+    "daily_rate": 169.29,
+    "id": 290,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sunshine-mountain-lodge/00_Gallery_Image_1_a85vn8.jpg"
+  },
+  {
+    "name": "Casitas at Capitol Reef",
+    "city": "Torrey",
+    "daily_rate": 250.99,
+    "id": 291,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/casitas-capitol-reef/00_Gallery_Image_1_npmtsa.jpg"
+  },
+  {
+    "name": "Eagle Mountain House and Golf Club",
+    "city": "Jackson",
+    "daily_rate": 153.13,
+    "id": 292,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/eagle-mountain-house/00_Gallery_Image_1_vfrbko.jpg"
+  },
+  {
+    "name": "Casa Madrona Hotel & Spa",
+    "city": "Sausalito",
+    "daily_rate": 173.86,
+    "id": 293,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/casa-madrona/00_Gallery_Image_1_w4hvyx.jpg"
+  },
+  {
+    "name": "Sky Ridge Yurts",
+    "city": "Bryson City",
+    "daily_rate": 169.3,
+    "id": 294,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/sky-ridge-yurts/00_Gallery_Image_1_er40r7.jpg"
+  },
+  {
+    "name": "Long View Resort",
+    "city": "Bryson City",
+    "daily_rate": 465.59,
+    "id": 295,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/long-view-resort/00_Gallery_Image_2_nsz77x.jpg"
+  },
+  {
+    "name": "Hotel Greystone",
+    "city": "Miami Beach",
+    "daily_rate": 443.59,
+    "id": 296,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/hotel-greystone/00_Gallery_Image_4_bpyscz.jpg"
+  },
+  {
+    "name": "The Windsor Suites",
+    "city": "Philadelphia",
+    "daily_rate": 130.56,
+    "id": 297,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/windsor-suites/00_Gallery_Image_1_wbxnnd.jpg"
+  },
+  {
+    "name": "Mountain Springs Lodge",
+    "city": "Leavenworth",
+    "daily_rate": 472.22,
+    "id": 298,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/mountain-springs-lodge/00_Gallery_Image_1_dopmny.jpg"
+  },
+  {
+    "name": "The Kings Throne Inn and Guest House",
+    "city": "Toledo",
+    "daily_rate": 362.57,
+    "id": 299,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/kings-throne/00_Gallery_Image_4_a2hogu.jpg"
+  },
+  {
+    "name": "Lanier Islands Resort",
+    "city": "Buford",
+    "daily_rate": 189.49,
+    "id": 300,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/lanier-lslands-lodge/00_Gallery_Image_1a_s9qlrg.jpg"
+  },
+  {
+    "name": "Melrose River Club",
+    "city": "San Marcos",
+    "daily_rate": 235.83,
+    "id": 301,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/melrose-river-club/00_Gallery_Image_1_h5yjgx.jpg"
+  },
+  {
+    "name": "Motif on Music Row",
+    "city": "Nashville",
+    "daily_rate": 226.39,
+    "id": 302,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/motif-music-row/00_Gallery_Image_1_docvmj.jpg"
+  },
+  {
+    "name": "The Murieta Inn and Spa",
+    "city": "Rancho Murieta",
+    "daily_rate": 336.69,
+    "id": 303,
+    "has_member_rate": false,
+    "image": "https://assets.stashrewards.com/t_hotel_photo_gallery/independent hotels/murieta-inn/000_Gallery_Image_1_ipgmmx.jpg"
+  }
+]
