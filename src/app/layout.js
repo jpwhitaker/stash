@@ -3,6 +3,7 @@ import "./globals.css";
 import SearchBar from "./components/SearchBar";
 import hotelData from "./components/data.json"
 import Link from "next/link";
+import Image from "next/image";
 
 
 const geistSans = Geist({
@@ -28,8 +29,10 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <header>
-          <nav>
-            <Link href="/">Stash</Link>
+          <nav className="px-20 py-8">
+            <Link href="/">
+              <Image src="/logo.svg" alt="Stash Logo" width={200} height={40} />
+            </Link>
           </nav>
         </header>
         <SearchBar cities={cities}/>

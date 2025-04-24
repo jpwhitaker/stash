@@ -7,12 +7,12 @@ import { ChevronDownIcon, CheckIcon } from "@heroicons/react/24/outline";
 
 export default function CitySearchCombobox({ cities, initialQuery = '', onSelect, value }) {
   const [query, setQuery] = useState(initialQuery);
-  
+
   const filteredCities = query === ''
     ? cities
-    : cities.filter((city) => 
-        city.toLowerCase().includes(query.toLowerCase())
-      );
+    : cities.filter((city) =>
+      city.toLowerCase().includes(query.toLowerCase())
+    );
 
   return (
     <Combobox value={value} onChange={onSelect}>
@@ -39,8 +39,7 @@ export default function CitySearchCombobox({ cities, initialQuery = '', onSelect
                 key={city}
                 value={city}
                 className={({ active }) =>
-                  `relative cursor-default select-none py-2 pl-10 pr-4 ${
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-900'
+                  `relative cursor-default select-none py-2 pl-10 pr-4 ${active ? 'bg-gray-100 text-gray-900' : 'text-gray-900'
                   }`
                 }
               >

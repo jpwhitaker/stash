@@ -36,7 +36,14 @@ export default function SearchResult({ hotel }, key) {
           <div className="text-sm">{hotel.city}</div>
         </div>
         <div className="flex flex-col gap-0 items-end">
-          <div className="text-xl font-bold text-amber-600">${Math.floor(hotel.daily_rate)}</div>
+        {hotel.has_member_rate ? (
+            <div className="flex items-center">
+              <div className="text-md font-medium text-gray-400 line-through mr-2">${Math.floor(hotel.daily_rate)}</div>
+              <div className="text-xl font-bold text-amber-600">${Math.floor(hotel.daily_rate * 0.9)}</div>
+            </div>
+          ) : (
+            <div className="text-xl font-bold text-amber-600">${Math.floor(hotel.daily_rate)}</div>
+          )}
           {hasDateRange && numberOfDays > 1 ? (
             <div className="text-xs font-normal text-gray-500">
               ${totalPrice} total for {numberOfDays} nights

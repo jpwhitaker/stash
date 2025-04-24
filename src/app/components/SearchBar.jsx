@@ -21,8 +21,8 @@ export default function SearchBar({ cities, className = "" }) {
   }, [searchQuery]);
 
   return (
-    <div className={`w-full bg-search-bg flex items-center justify-center text-search-text py-20 ${className}`}>
-      <div className="container mx-auto flex md:flex-row items-center gap-4">
+    <div className={`w-full bg-search-bg flex items-center justify-center text-search-text py-8 ${className}`}>
+      <div className="w-full px-20 flex md:flex-row items-center gap-4">
         
         <div className="w-full flex flex-col md:flex-row items-center gap-4">
           
