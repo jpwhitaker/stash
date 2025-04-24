@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import CitySearchCombobox from './CitySearchCombobox';
 import useSearchStore from '../store/searchStore';
+import { DatePicker } from './Datepicker';
 
 export default function SearchBar({ cities, className = "" }) {
   const router = useRouter();
@@ -21,15 +22,20 @@ export default function SearchBar({ cities, className = "" }) {
 
   return (
     <div className={`w-full bg-search-bg flex items-center justify-center text-search-text py-20 ${className}`}>
-      <div className="container mx-auto flex flex-col md:flex-row items-center gap-4">
+      <div className="container mx-auto flex md:flex-row items-center gap-4">
         
-        <div className="w-full md:w-1/3">
-          <CitySearchCombobox
-            cities={cities}
-            initialQuery={localQuery}
-            onSelect={handleCitySelect}
-            value={selectedCity}
-          />
+        <div className="w-full flex flex-col md:flex-row items-center gap-4">
+          
+            <CitySearchCombobox
+              cities={cities}
+              initialQuery={localQuery}
+              onSelect={handleCitySelect}
+              value={selectedCity}
+              autoComplete="off"
+            />
+          
+          
+            <DatePicker/>
         </div>
       </div>
     </div>

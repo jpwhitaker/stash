@@ -16,7 +16,7 @@ export default function CitySearchCombobox({ cities, initialQuery = '', onSelect
 
   return (
     <Combobox value={value} onChange={onSelect}>
-      <div className="relative mt-1">
+      <div className="relative">
         <div className="relative w-full cursor-default overflow-hidden bg-clear border-1 border-white text-left  focus:outline-none  sm:text-sm">
           <ComboboxInput
             className="w-full border-none py-2 pl-3 pr-10 text-sm leading-5 placeholder:text-white focus:outline-none focus:ring-0"

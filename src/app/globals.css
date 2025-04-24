@@ -6,6 +6,22 @@
   --search-text: #FFFEF2;
   --text: #333333;
   --results-bg: #FFFFFF;
+  
+  /* Required shadcn datepicker variables */
+  --radius: 0.5rem;
+  --background: #FFFFFF;
+  --foreground: #000000;
+  --primary: #000000;
+  --primary-foreground: #FFFFFF;
+  --muted: #f1f1f1;
+  --muted-foreground: #737373;
+  --accent: #f4f4f5;
+  --accent-foreground: #000000;
+  --border: #e5e5e5;
+  --input: #e5e5e5;
+  --ring: #a1a1aa;
+  --popover: #FFFFFF;
+  --popover-foreground: #000000;
 }
 
 @theme inline {
@@ -16,6 +32,21 @@
   --color-results-bg: var(--results-bg);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Required shadcn color mappings */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
 }
 
 body {
