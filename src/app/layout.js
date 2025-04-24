@@ -1,5 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import SearchBar from "./components/SearchBar";
+import hotelData from "./components/data.json"
+import Link from "next/link";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,6 +21,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const cities = [...new Set(hotelData.map(hotel => hotel.city))].sort();
   return (
     <html lang="en">
       <body
@@ -24,9 +29,10 @@ export default function RootLayout({ children }) {
       >
         <header>
           <nav>
-            Stash
+            <Link href="/">Stash</Link>
           </nav>
         </header>
+        <SearchBar cities={cities}/>
         {children}
       </body>
     </html>
