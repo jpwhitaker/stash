@@ -7,7 +7,7 @@ import useSearchStore from '../store/searchStore';
 import { DatePicker } from './Datepicker';
 import Counter from './Counter';
 
-export default function SearchBar({ cities, className = "" }) {
+export default function SearchBar({ cities, hotels = [], className = "" }) {
   const router = useRouter();
   const {
     searchQuery,
@@ -21,17 +21,19 @@ export default function SearchBar({ cities, className = "" }) {
   } = useSearchStore();
   const [localQuery, setLocalQuery] = useState(searchQuery);
 
-  const handleCitySelect = (city) => {
-    setSelectedCity(city);
+  const handleCitySelect = (selection) => {
+    setSelectedCity(selection);
     // Only update URL immediately if we're on the search page
     if (window.location.pathname.startsWith('/search/') && window.history) {
-      window.history.pushState(null, '', `/search/${encodeURIComponent(city)}`);
+      const searchTerm = typeof selection === 'object' ? selection.value : selection;
+      window.history.pushState(null, '', `/search/${encodeURIComponent(searchTerm)}`);
     }
   };
 
   const handleSearch = () => {
     if (selectedCity) {
-      router.push(`/search/${encodeURIComponent(selectedCity)}`);
+      const searchTerm = typeof selectedCity === 'object' ? selectedCity.value : selectedCity;
+      router.push(`/search/${encodeURIComponent(searchTerm)}`);
     }
   };
   
@@ -64,6 +66,7 @@ export default function SearchBar({ cities, className = "" }) {
             <CitySearchCombobox
               className="w-full sm:w-60"
               cities={cities}
+              hotels={hotels}
               initialQuery={localQuery}
               onSelect={handleCitySelect}
               value={selectedCity}

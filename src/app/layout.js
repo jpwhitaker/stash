@@ -5,7 +5,7 @@ import {
 import "./globals.css";
 import SearchBar from "./components/SearchBar";
 import hotelData from "./components/data.json"
-import Link from "next/link";
+import LogoLink from "./components/LogoLink";
 import Image from "next/image";
 
 
@@ -33,6 +33,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   const cities = [...new Set(hotelData.map(hotel => hotel.city))].sort();
+  const hotelNames = [...new Set(hotelData.map(hotel => hotel.name))].sort();
+  
   return (
     <html lang="en">
       <body
@@ -45,12 +47,10 @@ export default function RootLayout({ children }) {
       >
         <header>
           <nav className="px-20 py-8">
-            <Link href="/" className="inline-block">
-              <Image src="/logo.svg" alt="Stash Logo" width={200} height={40} />
-            </Link>
+            <LogoLink />
           </nav>
         </header>
-        <SearchBar cities={cities}/>
+        <SearchBar cities={cities} hotels={hotelNames}/>
         {children}
       </body>
     </html>
