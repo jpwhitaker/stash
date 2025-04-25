@@ -23,6 +23,7 @@ export default function CitySearchCombobox({ cities, initialQuery = '', onSelect
             placeholder="Search cities..."
             displayValue={(city) => city || query}
             onChange={(event) => setQuery(event.target.value)}
+            autoComplete='off'
           />
           <ComboboxButton className="absolute inset-y-0 right-0 flex items-center pr-2">
             <ChevronDownIcon className="w-5 h-5 text-white" aria-hidden="true" />

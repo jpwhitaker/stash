@@ -9,31 +9,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import StashPartners from './StashPartners';
 
 
-function SearchResults({ filteredHotels }) {
-  console.log("render")
-  return (
-    <AnimatePresence mode="wait">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 gap-y-28 mb-12">
-        {filteredHotels.map((hotel, index) => (
-          <motion.div
-            key={`hotel-${hotel.id}`}
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{
-              duration: 0.5,
-              delay: 1.0 + (index * 0.1),
-              ease: "backOut"
-            }}
-          >
-            <SearchResult hotel={hotel} />
-          </motion.div>
-        ))}
-      </div>
-    </AnimatePresence>
-  );
-}
-
-
 function SearchDrawer({
   selectedCity,
   dateRange,
@@ -46,6 +21,7 @@ function SearchDrawer({
       animate={{ height: "auto", opacity: 1 }}
       exit={{ height: 0, opacity: 0 }}
       transition={{ duration: 0.5, delay: 0.5 }}
+      
     >
       <div className="mb-6">
         <h1 className="text-2xl font-semibold mb-2">
@@ -75,6 +51,34 @@ function SearchDrawer({
   );
 }
 
+
+function SearchResults({ filteredHotels }) {
+  console.log("render")
+  return (
+    <AnimatePresence mode="wait">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 gap-y-28 mb-12">
+        {filteredHotels.map((hotel, index) => (
+          <motion.div
+            key={`hotel-${hotel.id}`}
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{
+              duration: 0.5,
+              delay: 1.0 + (index * 0.1),
+              ease: "backOut"
+            }}
+          >
+            <SearchResult hotel={hotel} />
+          </motion.div>
+        ))}
+      </div>
+    </AnimatePresence>
+  );
+}
+
+
+
+
 export default function SearchDisplay() {
   const selectedCity = useSearchStore(state => state.selectedCity);
   const dateRange = useSearchStore(state => state.dateRange);
@@ -93,7 +97,7 @@ export default function SearchDisplay() {
   return (
     <div className="bg-results-bg min-h-screen font-[family-name:var(--font-geist-sans)]">
       <div className="p-8 sm:px-20 sm:py-12">
-        <AnimatePresence>
+        
           {selectedCity && (
             <SearchDrawer
               selectedCity={selectedCity}
@@ -102,7 +106,7 @@ export default function SearchDisplay() {
               filteredHotels={filteredHotels}
             />
           )}
-        </AnimatePresence>
+        
 
         <StashPartners 
           hotelData={hotelData}

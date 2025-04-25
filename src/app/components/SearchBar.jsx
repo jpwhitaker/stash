@@ -34,7 +34,6 @@ export default function SearchBar({ cities, className = "" }) {
               initialQuery={localQuery}
               onSelect={handleCitySelect}
               value={selectedCity}
-              autoComplete="off"
             />
           
           
