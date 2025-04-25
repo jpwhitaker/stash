@@ -8,5 +8,5 @@ export function cn(...inputs) {
 
 export function calculateNights(from, to) {
   if (!from || !to) return 0;
-  return differenceInDays(to, from);
+  return differenceInDays(startOfDay(to), startOfDay(from));
 }
