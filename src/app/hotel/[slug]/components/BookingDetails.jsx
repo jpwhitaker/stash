@@ -1,6 +1,6 @@
 import React from 'react';
 import useSearchStore from '@/app/store/searchStore';
-import { differenceInDays } from 'date-fns';
+import { calculateNights } from "@/lib/utils";
 
 export default function BookingDetails({ hotel }) {
   const dateRange = useSearchStore(state => state.dateRange);
@@ -8,8 +8,8 @@ export default function BookingDetails({ hotel }) {
   const children = useSearchStore(state => state.children);
   
   const hasDateRange = dateRange?.from && dateRange?.to;
-  const numberOfDays = hasDateRange 
-    ? differenceInDays(dateRange.to, dateRange.from)
+  const numberOfNights = hasDateRange 
+    ? calculateNights(dateRange.from, dateRange.to)
     : 1;
     
   const getEffectiveRate = (rate, hasMemberRate) => {
@@ -18,7 +18,7 @@ export default function BookingDetails({ hotel }) {
   };
   
   const effectiveRate = hotel?.daily_rate ? getEffectiveRate(hotel.daily_rate, hotel.has_member_rate) : 0;
-  const totalPrice = effectiveRate * numberOfDays;
+  const totalPrice = effectiveRate * numberOfNights;
 
   return (
     <div className="w-100 p-5 border border-gray-200 rounded-xl shadow-sm bg-white">
@@ -38,7 +38,7 @@ export default function BookingDetails({ hotel }) {
       <div className="grid grid-cols-2 gap-4 mb-4">
         <div>
           <p className="text-sm text-gray-500">Duration</p>
-          <p className="font-medium">{numberOfDays} {numberOfDays === 1 ? 'night' : 'nights'}</p>
+          <p className="font-medium">{numberOfNights} {numberOfNights === 1 ? 'night' : 'nights'}</p>
         </div>
         <div>
           <p className="text-sm text-gray-500">Guests</p>
@@ -62,9 +62,9 @@ export default function BookingDetails({ hotel }) {
           </div>
         </div>
         
-        {hasDateRange && numberOfDays > 1 && (
+        {hasDateRange && numberOfNights > 1 && (
           <div className="flex justify-between items-center">
-            <p className="text-sm text-gray-500">Total ({numberOfDays} nights)</p>
+            <p className="text-sm text-gray-500">Total ({numberOfNights} nights)</p>
             <span className="font-bold text-amber-600">${totalPrice}</span>
           </div>
         )}

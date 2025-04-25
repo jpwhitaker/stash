@@ -1,18 +1,17 @@
 'use client'
-import { format, differenceInDays } from 'date-fns';
+import { format} from 'date-fns';
 import hotelData from "../../components/data.json";
 import useSearchStore from '@/app/store/searchStore';
 import SearchResult from "./SearchResult";
-import PaginationControls from "./PaginationControls";
-import { useState } from 'react';
 import { motion, AnimatePresence, LayoutGroup } from "motion/react";
 import StashPartners from './StashPartners';
+import { calculateNights } from "@/lib/utils";
 
 
 function SearchDrawer({
   selectedCity,
   dateRange,
-  numberOfDays,
+  numberOfNights,
   filteredHotels
 }) {
   return (
@@ -45,7 +44,7 @@ function SearchDrawer({
                   <span>{format(dateRange.from, "PPP")}</span> - <span>{format(dateRange.to, "PPP")}</span>
                 </span>
                 <span className="ml-2">
-                  ({numberOfDays - 1}{numberOfDays - 1 === 1 ? '\u00A0night' : '\u00A0nights'})
+                  ({numberOfNights}{numberOfNights=== 1 ? '\u00A0night' : '\u00A0nights'})
                 </span>
               </>
             )}
@@ -99,10 +98,10 @@ export default function SearchDisplay() {
       hotel.city.trim().toLowerCase() === selectedCity.trim().toLowerCase())
     : hotelData;
 
-  // Calculate number of days in the date range
-  const numberOfDays = dateRange?.from && dateRange?.to
-    ? differenceInDays(dateRange.to, dateRange.from) + 1
-    : 0;
+  // Calculate number of nights in the date range
+  const numberOfNights = dateRange?.from && dateRange?.to
+    ? calculateNights(dateRange.from, dateRange.to)
+    : 1;
 
   return (
     <div className="bg-results-bg min-h-screen font-[family-name:var(--font-geist-sans)]">
@@ -113,7 +112,7 @@ export default function SearchDisplay() {
             <SearchDrawer
               selectedCity={selectedCity}
               dateRange={dateRange}
-              numberOfDays={numberOfDays}
+              numberOfNights={numberOfNights}
               filteredHotels={filteredHotels}
             />
           )}

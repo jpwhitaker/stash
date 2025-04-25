@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import useSearchStore from '@/app/store/searchStore';
-import { differenceInDays } from 'date-fns';
 import { HandThumbUpIcon } from "@heroicons/react/16/solid";
+import { calculateNights } from "@/lib/utils";
 
 export default function SearchResult({ hotel }, key) {
   return (
@@ -53,8 +53,8 @@ const PriceInfo = ({ dailyRate, hasMemberRate }) => {
   const dateRange = useSearchStore(state => state.dateRange);
 
   const hasDateRange = dateRange?.from && dateRange?.to;
-  const numberOfDays = hasDateRange
-    ? differenceInDays(dateRange.to, dateRange.from)
+  const numberOfNights = hasDateRange
+    ? calculateNights(dateRange.from, dateRange.to)
     : 1;
 
   const getEffectiveRate = (rate, hasMemberRate) => {
@@ -63,7 +63,7 @@ const PriceInfo = ({ dailyRate, hasMemberRate }) => {
   };
 
   const effectiveRate = getEffectiveRate(dailyRate, hasMemberRate);
-  const totalPrice = effectiveRate * numberOfDays;
+  const totalPrice = effectiveRate * numberOfNights;
 
   return (
     <div className="flex flex-col gap-0 items-end">
@@ -75,9 +75,9 @@ const PriceInfo = ({ dailyRate, hasMemberRate }) => {
       ) : (
         <div className="text-xl font-bold text-amber-600">${effectiveRate}</div>
       )}
-      {hasDateRange && numberOfDays > 1 ? (
+      {hasDateRange && numberOfNights > 1 ? (
         <div className="text-xs font-normal text-gray-500 text-right">
-          ${totalPrice} total for {numberOfDays} nights
+          ${totalPrice} total for {numberOfNights} nights
         </div>
       ) : (
         <div className="text-xs font-normal text-gray-500">

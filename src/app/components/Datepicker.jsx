@@ -30,7 +30,7 @@ export function DatePicker({
     }
   );
 
-  // Initialize store with today's date if not already set
+  //set store with today's date if not already set
   useEffect(() => {
     if (!dateRange?.from) {
       setDateRange({ from: today, to: tomorrow });
@@ -38,11 +38,30 @@ export function DatePicker({
   }, []);
 
   const handleDateSelect = (newDate) => {
-    if (newDate?.from && (!newDate.to || newDate.from.toISOString() === newDate.to.toISOString())) {
+    // user selected only the "from" date
+    if (newDate?.from && !newDate.to) {
+      // Automatically set "to" date to the next day
       const nextDay = new Date(newDate.from);
       nextDay.setDate(nextDay.getDate() + 1);
-      newDate = { ...newDate, to: nextDay };
+      newDate = { 
+        from: newDate.from,
+        to: nextDay 
+      };
     }
+    
+    // user selected the same day for both "from" and "to"
+    if (newDate?.from && newDate?.to && 
+        newDate.from.toISOString() === newDate.to.toISOString()) {
+      // Set "to" date to the next day to ensure at least one night
+      const nextDay = new Date(newDate.from);
+      nextDay.setDate(nextDay.getDate() + 1);
+      newDate = {
+        from: newDate.from,
+        to: nextDay
+      };
+    }
+    
+    // update both local state and store state
     setDate(newDate);
     setDateRange(newDate);
   };
