@@ -5,7 +5,7 @@ import useSearchStore from '@/app/store/searchStore';
 import SearchResult from "./SearchResult";
 import PaginationControls from "./PaginationControls";
 import { useState } from 'react';
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, LayoutGroup } from "motion/react";
 import StashPartners from './StashPartners';
 
 
@@ -16,38 +16,45 @@ function SearchDrawer({
   filteredHotels
 }) {
   return (
-    <motion.div
-      initial={{ height: 0, opacity: 0 }}
-      animate={{ height: "auto", opacity: 1 }}
-      exit={{ height: 0, opacity: 0 }}
-      transition={{ duration: 0.5, delay: 0.5 }}
-      
-    >
-      <div className="mb-6">
-        <h1 className="text-2xl font-semibold mb-2">
-          Search Results
-        </h1>
+    <LayoutGroup>
+      <motion.div
+        layout
+        initial={{ height: 0, opacity: 0 }}
+        animate={{ height: "auto", opacity: 1 }}
+        exit={{ height: 0, opacity: 0 }}
+        transition={{ 
+          duration: 0.5, 
+          delay: 0.5,
+          layout: { type: "spring", duration: 0.3 }
+        }}
+      >
+        <motion.div layout className="mb-6">
+          <h1 className="text-2xl font-semibold mb-2">
+            Search Results
+          </h1>
 
-        <div className="text-sm text-gray-600 mb-2">
-          <span className="font-medium">
-            For {selectedCity}
-          </span>
-          {dateRange?.from && dateRange?.to && (
-            <>
-              <span className="mx-2">|</span>
-              <span className="font-medium">
-                {format(dateRange.from, "PPP")} - {format(dateRange.to, "PPP")}
-              </span>
-              <span className="ml-2">
-                ({numberOfDays} {numberOfDays === 1 ? 'day' : 'days'})
-              </span>
-            </>
-          )}
-        </div>
-      </div>
-
-      <SearchResults filteredHotels={filteredHotels} />
-    </motion.div>
+          <div className="text-sm text-gray-600 mb-2">
+            <span className="font-medium">
+              For {selectedCity}
+            </span>
+            {dateRange?.from && dateRange?.to && (
+              <>
+                <span className="mx-2">|</span>
+                <span className="font-medium">
+                  {format(dateRange.from, "PPP")} - {format(dateRange.to, "PPP")}
+                </span>
+                <span className="ml-2">
+                  ({numberOfDays} {numberOfDays === 1 ? 'day' : 'days'})
+                </span>
+              </>
+            )}
+          </div>
+        </motion.div>
+        <motion.div layout>
+          <SearchResults filteredHotels={filteredHotels} />
+        </motion.div>
+      </motion.div>
+    </LayoutGroup>
   );
 }
 
@@ -97,18 +104,18 @@ export default function SearchDisplay() {
   return (
     <div className="bg-results-bg min-h-screen font-[family-name:var(--font-geist-sans)]">
       <div className="p-8 sm:px-20 sm:py-12">
-        
-          {selectedCity && (
-            <SearchDrawer
-              selectedCity={selectedCity}
-              dateRange={dateRange}
-              numberOfDays={numberOfDays}
-              filteredHotels={filteredHotels}
-            />
-          )}
-        
 
-        <StashPartners 
+        {selectedCity && (
+          <SearchDrawer
+            selectedCity={selectedCity}
+            dateRange={dateRange}
+            numberOfDays={numberOfDays}
+            filteredHotels={filteredHotels}
+          />
+        )}
+
+
+        <StashPartners
           hotelData={hotelData}
           itemsPerPage={itemsPerPage}
         />
