@@ -23,8 +23,8 @@ export default function SearchBar({ cities, className = "" }) {
 
   const handleCitySelect = (city) => {
     setSelectedCity(city);
-    // Update URL without navigation using history API
-    if (window.history) {
+    // Only update URL immediately if we're on the search page
+    if (window.location.pathname.startsWith('/search/') && window.history) {
       window.history.pushState(null, '', `/search/${encodeURIComponent(city)}`);
     }
   };
@@ -34,6 +34,27 @@ export default function SearchBar({ cities, className = "" }) {
       router.push(`/search/${encodeURIComponent(selectedCity)}`);
     }
   };
+  
+  // Handle browser navigation events (back/forward buttons)
+  useEffect(() => {
+    const handlePopState = () => {
+      // Extract city from URL path
+      const path = window.location.pathname;
+      if (path.startsWith('/search/')) {
+        const cityFromUrl = decodeURIComponent(path.replace('/search/', ''));
+        // Update store with the city from URL
+        setSelectedCity(cityFromUrl);
+        // If you need to trigger a search or refresh results, do it here
+      }
+    };
+    
+    window.addEventListener('popstate', handlePopState);
+    
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, [setSelectedCity]);
 
   useEffect(() => {
     setLocalQuery(searchQuery);
@@ -41,7 +62,7 @@ export default function SearchBar({ cities, className = "" }) {
 
   return (
     <div className={`w-full bg-search-bg flex items-center justify-center text-search-text py-8 ${className}`}>
-      <div className="w-full px-20 flex md:flex-row items-center gap-4">
+      <div className="w-full p-8 sm:px-20 flex md:flex-row items-center gap-4">
         <div className="w-full flex flex-col xl:flex-row items-center gap-4 xl:gap-8">
           <div className='flex flex-col gap-4 sm:flex-row w-full sm:w-auto'>
             <CitySearchCombobox

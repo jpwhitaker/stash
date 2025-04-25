@@ -3,7 +3,7 @@ import SearchResult from "./SearchResult";
 import PaginationControls from "./PaginationControls";
 
 export default function StashPartners({ hotelData, itemsPerPage }) {
-  // Move pagination state and logic here
+
   const [allHotelsPage, setAllHotelsPage] = useState(1);
   const totalAllPages = Math.ceil(hotelData.length / itemsPerPage);
   const indexOfLastAllItem = allHotelsPage * itemsPerPage;

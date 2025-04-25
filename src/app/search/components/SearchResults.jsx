@@ -42,10 +42,10 @@ function SearchDrawer({
               <>
                 <span className="mx-2">|</span>
                 <span className="font-medium">
-                  {format(dateRange.from, "PPP")} - {format(dateRange.to, "PPP")}
+                  <span>{format(dateRange.from, "PPP")}</span> - <span>{format(dateRange.to, "PPP")}</span>
                 </span>
                 <span className="ml-2">
-                  ({numberOfDays - 1} {numberOfDays - 1 === 1 ? 'night' : 'nights'})
+                  ({numberOfDays - 1}{numberOfDays - 1 === 1 ? '\u00A0night' : '\u00A0nights'})
                 </span>
               </>
             )}
@@ -66,7 +66,7 @@ function SearchResults({ filteredHotels }) {
   console.log("render")
   return (
     <AnimatePresence mode="wait">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 gap-y-28 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-8 gap-y-28 mb-12">
         {filteredHotels.map((hotel, index) => (
           <motion.div
             key={`hotel-${hotel.id}`}
