@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
       >
         <header>
           <nav className="px-20 py-8">
-            <Link href="/">
+            <Link href="/" className="inline-block">
               <Image src="/logo.svg" alt="Stash Logo" width={200} height={40} />
             </Link>
           </nav>

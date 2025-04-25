@@ -69,9 +69,10 @@ export default function SearchBar({ cities, className = "" }) {
           
           <button 
             onClick={handleSearch} 
-            className="h-10 px-6 border border-search-text bg-transparent text-search-text text-sm"
+            className="h-10 px-6 border border-search-text bg-transparent text-search-text text-sm cursor-pointer overflow-hidden relative  group"
           >
-            Search
+            <span className="relative z-10">Search</span>
+            <div className="absolute inset-0 bg-search-text opacity-10 -translate-x-[170%] group-hover:-translate-x-[20%] transition-transform duration-300 ease-out transform-gpu origin-left skew-x-[-30deg] scale-x-[1.5]" />
           </button>
         </div>
       </div>
