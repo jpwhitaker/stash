@@ -13,7 +13,7 @@ export default function Home() {
           priority
         />
       <div className="absolute inset-0 flex items-center justify-center">
-        <h1 className="text-4xl font-bold text-white text-center px-4">
+        <h1 className="text-6xl font-light text-shadow-lg text-white text-center px-4 font-[family-name:var(--font-sorts-mill-goudy)]">
           The best hotels are independent hotels.
         </h1>
       </div>
