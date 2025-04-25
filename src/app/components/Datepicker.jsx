@@ -24,7 +24,7 @@ export function DatePicker({
   tomorrow.setDate(today.getDate() + 1);
   
   const [date, setDate] = useState(
-    dateRange && dateRange.from ? dateRange : {
+    dateRange?.from && dateRange?.to ? dateRange : {
       from: today,
       to: tomorrow,
     }
@@ -38,6 +38,7 @@ export function DatePicker({
   }, []);
 
   const handleDateSelect = (newDate) => {
+    console.log(newDate)
     // user selected only the "from" date
     if (newDate?.from && !newDate.to) {
       // Automatically set "to" date to the next day
@@ -51,7 +52,9 @@ export function DatePicker({
     
     // user selected the same day for both "from" and "to"
     if (newDate?.from && newDate?.to && 
-        newDate.from.toISOString() === newDate.to.toISOString()) {
+        newDate.from.getFullYear() === newDate.to.getFullYear() &&
+        newDate.from.getMonth() === newDate.to.getMonth() &&
+        newDate.from.getDate() === newDate.to.getDate()) {
       // Set "to" date to the next day to ensure at least one night
       const nextDay = new Date(newDate.from);
       nextDay.setDate(nextDay.getDate() + 1);
