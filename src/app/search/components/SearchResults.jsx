@@ -45,7 +45,7 @@ function SearchDrawer({
                   {format(dateRange.from, "PPP")} - {format(dateRange.to, "PPP")}
                 </span>
                 <span className="ml-2">
-                  ({numberOfDays} {numberOfDays === 1 ? 'night' : 'nights'})
+                  ({numberOfDays - 1} {numberOfDays - 1 === 1 ? 'night' : 'nights'})
                 </span>
               </>
             )}
