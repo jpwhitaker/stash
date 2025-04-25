@@ -29,6 +29,12 @@ export default function SearchBar({ cities, className = "" }) {
     }
   };
 
+  const handleSearch = () => {
+    if (selectedCity) {
+      router.push(`/search/${encodeURIComponent(selectedCity)}`);
+    }
+  };
+
   useEffect(() => {
     setLocalQuery(searchQuery);
   }, [searchQuery]);
@@ -60,6 +66,13 @@ export default function SearchBar({ cities, className = "" }) {
               onChange={setChildren}
             />
           </div>
+          
+          <button 
+            onClick={handleSearch} 
+            className="h-10 px-6 border border-search-text bg-transparent text-search-text text-sm"
+          >
+            Search
+          </button>
         </div>
       </div>
     </div>
