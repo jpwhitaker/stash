@@ -54,7 +54,7 @@ const PriceInfo = ({ dailyRate, hasMemberRate }) => {
 
   const hasDateRange = dateRange?.from && dateRange?.to;
   const numberOfDays = hasDateRange
-    ? differenceInDays(dateRange.to, dateRange.from) + 1
+    ? differenceInDays(dateRange.to, dateRange.from)
     : 1;
 
   const getEffectiveRate = (rate, hasMemberRate) => {

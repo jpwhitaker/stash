@@ -20,22 +20,29 @@ export function DatePicker({
 }) {
   const { dateRange, setDateRange } = useSearchStore();
   const today = new Date();
+  const tomorrow = new Date(today);
+  tomorrow.setDate(today.getDate() + 1);
   
   const [date, setDate] = useState(
     dateRange && dateRange.from ? dateRange : {
       from: today,
-      to: today,
+      to: tomorrow,
     }
   );
 
   // Initialize store with today's date if not already set
   useEffect(() => {
     if (!dateRange?.from) {
-      setDateRange({ from: today, to: today });
+      setDateRange({ from: today, to: tomorrow });
     }
   }, []);
 
   const handleDateSelect = (newDate) => {
+    if (newDate?.from && (!newDate.to || newDate.from.toISOString() === newDate.to.toISOString())) {
+      const nextDay = new Date(newDate.from);
+      nextDay.setDate(nextDay.getDate() + 1);
+      newDate = { ...newDate, to: nextDay };
+    }
     setDate(newDate);
     setDateRange(newDate);
   };
