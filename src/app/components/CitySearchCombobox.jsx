@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { Combobox, ComboboxInput, ComboboxButton, ComboboxOptions, ComboboxOption } from "@headlessui/react";
 import { ChevronDownIcon, CheckIcon } from "@heroicons/react/24/outline";
 
-export default function CitySearchCombobox({ cities, initialQuery = '', onSelect, value }) {
+export default function CitySearchCombobox({ cities, initialQuery = '', onSelect, value, className = "" }) {
   const [query, setQuery] = useState(initialQuery);
 
   const filteredCities = query === ''
@@ -15,7 +15,7 @@ export default function CitySearchCombobox({ cities, initialQuery = '', onSelect
     );
 
   return (
-    <Combobox value={value} onChange={onSelect}>
+    <Combobox value={value} onChange={onSelect} className={className}>
       <div className="relative">
         <div className="relative w-full  cursor-default overflow-hidden bg-clear  text-left  focus:outline-none  sm:text-sm">
           <ComboboxInput

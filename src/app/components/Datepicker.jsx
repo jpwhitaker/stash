@@ -48,7 +48,7 @@ export function DatePicker({
             id="date"
             variant={"outline"}
             className={cn(
-              "w-[300px] h-10 justify-start text-left bg-transparent font-normal rounded-none text-search-text text-sm border border-search-text"
+              "h-10 justify-start text-left bg-transparent font-normal rounded-none text-search-text text-sm border border-search-text w-full",
             )}
           >
             <CalendarIcon />

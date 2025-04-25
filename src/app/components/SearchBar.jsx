@@ -9,12 +9,12 @@ import Counter from './Counter';
 
 export default function SearchBar({ cities, className = "" }) {
   const router = useRouter();
-  const { 
-    searchQuery, 
-    selectedCity, 
+  const {
+    searchQuery,
+    selectedCity,
     adults,
     children,
-    setSearchQuery, 
+    setSearchQuery,
     setSelectedCity,
     setAdults,
     setChildren
@@ -42,34 +42,36 @@ export default function SearchBar({ cities, className = "" }) {
   return (
     <div className={`w-full bg-search-bg flex items-center justify-center text-search-text py-8 ${className}`}>
       <div className="w-full px-20 flex md:flex-row items-center gap-4">
-        <div className="w-full flex flex-col md:flex-row items-center gap-8">
-          <CitySearchCombobox
-            cities={cities}
-            initialQuery={localQuery}
-            onSelect={handleCitySelect}
-            value={selectedCity}
-          />
-          
-          <DatePicker/>
-          
-          <div className="flex gap-4">
-            <Counter 
-              label="Adults" 
-              value={adults} 
-              onChange={setAdults} 
+        <div className="w-full flex flex-col lg:flex-row items-center gap-8">
+          <div className='flex flex-col gap-4 sm:flex-row w-full sm:w-auto'>
+            <CitySearchCombobox
+              className="w-full sm:w-60"
+              cities={cities}
+              initialQuery={localQuery}
+              onSelect={handleCitySelect}
+              value={selectedCity}
+            />
+            <DatePicker className="w-full sm:w-60" />
+          </div>
+
+          <div className="flex flex-col gap-4 sm:flex-row">
+            <Counter
+              label="Adults"
+              value={adults}
+              onChange={setAdults}
               min={1}
             />
             <div className="w-px self-stretch bg-search-text mx-2" />
-            <Counter 
-              label="Children" 
-              value={children} 
+            <Counter
+              label="Children"
+              value={children}
               onChange={setChildren}
             />
           </div>
-          
-          <button 
-            onClick={handleSearch} 
-            className="h-10 px-6 border border-search-text bg-transparent text-search-text text-sm cursor-pointer overflow-hidden relative  group"
+
+          <button
+            onClick={handleSearch}
+            className="h-10 px-6 border border-search-text bg-transparent text-search-text text-sm cursor-pointer overflow-hidden relative group flex-shrink-0 w-full sm:w-auto"
           >
             <span className="relative z-10">Search</span>
             <div className="absolute inset-0 bg-search-text opacity-10 -translate-x-[170%] group-hover:-translate-x-[20%] transition-transform duration-300 ease-out transform-gpu origin-left skew-x-[-30deg] scale-x-[1.5]" />
