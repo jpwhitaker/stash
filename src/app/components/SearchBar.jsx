@@ -35,22 +35,18 @@ export default function SearchBar({ cities, className = "" }) {
     }
   };
   
-  // Handle browser navigation events (back/forward buttons)
+
   useEffect(() => {
     const handlePopState = () => {
-      // Extract city from URL path
       const path = window.location.pathname;
       if (path.startsWith('/search/')) {
         const cityFromUrl = decodeURIComponent(path.replace('/search/', ''));
-        // Update store with the city from URL
         setSelectedCity(cityFromUrl);
-        // If you need to trigger a search or refresh results, do it here
       }
     };
     
     window.addEventListener('popstate', handlePopState);
     
-    // Clean up event listener on component unmount
     return () => {
       window.removeEventListener('popstate', handlePopState);
     };

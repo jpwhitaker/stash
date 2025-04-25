@@ -1,10 +1,15 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from "next/image";
 import hotelsData from "../../components/data.json";
 import BookingDetails from './components/BookingDetails';
 
 export default function Hotel({params}) {
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // Find the hotel by ID (convert slug to number)
   const unwrappedParams = React.use(params);
   const hotelId = parseInt(unwrappedParams.slug, 10);
