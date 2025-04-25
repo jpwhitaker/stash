@@ -6,7 +6,6 @@ import { differenceInDays } from 'date-fns';
 export default function SearchResult({ hotel }, key) {
   const dateRange = useSearchStore(state => state.dateRange);
   
-  // Check if a date range is actually selected
   const hasDateRange = dateRange?.from && dateRange?.to;
 
   const numberOfDays = hasDateRange 
