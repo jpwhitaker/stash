@@ -1,6 +1,6 @@
 "use client"
 
-import * as React from "react"
+import { useState, useEffect } from "react"
 import { format } from "date-fns"
 import { Calendar as CalendarIcon } from "lucide-react"
 import { DateRange } from "react-day-picker"
@@ -21,7 +21,7 @@ export function DatePicker({
   const { dateRange, setDateRange } = useSearchStore();
   const today = new Date();
   
-  const [date, setDate] = React.useState(
+  const [date, setDate] = useState(
     dateRange && dateRange.from ? dateRange : {
       from: today,
       to: today,
@@ -29,7 +29,7 @@ export function DatePicker({
   );
 
   // Initialize store with today's date if not already set
-  React.useEffect(() => {
+  useEffect(() => {
     if (!dateRange?.from) {
       setDateRange({ from: today, to: today });
     }
@@ -48,8 +48,9 @@ export function DatePicker({
             id="date"
             variant={"outline"}
             className={cn(
-              "w-[300px] justify-start text-left text-foreground font-normal",
-              !date && "text-muted-foreground"
+              "w-[300px] justify-start text-left bg-transparent font-normal rounded-none",
+              !date && "text-muted-foreground",
+              "text-[color:var(--search-text)]"
             )}
           >
             <CalendarIcon />

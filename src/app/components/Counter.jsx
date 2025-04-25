@@ -23,8 +23,8 @@ export default function Counter({
   };
 
   return (
-    <div className="flex flex-col space-y-2">
-      {/* <span className="text-sm font-medium">{label}</span> */}
+    <div className="flex items-center space-x-3">
+      {label && <span className="text-sm font-medium">{label}</span>}
       <div className="flex items-center space-x-3">
         <Button 
           variant="ghost" 
