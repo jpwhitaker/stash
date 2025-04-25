@@ -17,9 +17,9 @@ export default function CitySearchCombobox({ cities, initialQuery = '', onSelect
   return (
     <Combobox value={value} onChange={onSelect}>
       <div className="relative">
-        <div className="relative w-full cursor-default overflow-hidden bg-clear border-1 border-white text-left  focus:outline-none  sm:text-sm">
+        <div className="relative w-full  cursor-default overflow-hidden bg-clear  text-left  focus:outline-none  sm:text-sm">
           <ComboboxInput
-            className="w-full border-none py-2 pl-3 pr-10 text-sm leading-5 placeholder:text-white focus:outline-none focus:ring-0"
+            className="w-full h-10 border py-2 pl-3 pr-10 text-sm leading-5 placeholder:text-white border-1 border-search-text focus:outline-none focus:ring-0"
             placeholder="Search cities..."
             displayValue={(city) => city || query}
             onChange={(event) => setQuery(event.target.value)}
