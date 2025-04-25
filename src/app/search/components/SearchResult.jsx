@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import useSearchStore from '@/app/store/searchStore';
-import { HandThumbUpIcon } from "@heroicons/react/16/solid";
+import { HandThumbUpIcon, StarIcon } from "@heroicons/react/16/solid";
 import { calculateNights } from "@/lib/utils";
 
 export default function SearchResult({ hotel }, key) {
@@ -38,11 +38,17 @@ const HotelInfo = ({ name, city }) => {
   return (
     <div className="flex flex-col gap-0">
       <div className="font-semibold">{name}</div>
-      <div className="flex items-center gap-2">
-        <div className="text-sm">{city}</div>
+      <div className="text-sm">{city}</div>
+      <div className="flex items-center gap-1">
         <div className="flex items-center">
           <HandThumbUpIcon className="h-3 w-3 text-neutral-400 mr-1" />
           <span className="text-xs font-medium">8.5/10</span>
+        </div>
+        <span className="text-xs">|</span>
+        <div className="flex items-center">
+          <StarIcon className="h-3 w-3 text-amber-500" />
+          <StarIcon className="h-3 w-3 text-amber-500" />
+          <StarIcon className="h-3 w-3 text-amber-500" />
         </div>
       </div>
     </div>
