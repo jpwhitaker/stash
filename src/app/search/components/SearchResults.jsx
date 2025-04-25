@@ -18,6 +18,7 @@ function SearchDrawer({
   return (
     <LayoutGroup>
       <motion.div
+      className=''
         layout
         initial={{ height: 0, opacity: 0 }}
         animate={{ height: "auto", opacity: 1 }}
@@ -25,7 +26,7 @@ function SearchDrawer({
         transition={{ 
           duration: 0.5, 
           delay: 0.5,
-          layout: { type: "spring", duration: 0.3 }
+          layout: { type: "tween", duration: 0.5 }
         }}
       >
         <motion.div layout className="mb-6">
@@ -50,9 +51,11 @@ function SearchDrawer({
             )}
           </div>
         </motion.div>
-        <motion.div layout>
+
+        <motion.div layout className=''>
           <SearchResults filteredHotels={filteredHotels} />
         </motion.div>
+
       </motion.div>
     </LayoutGroup>
   );
@@ -105,20 +108,23 @@ export default function SearchDisplay() {
     <div className="bg-results-bg min-h-screen font-[family-name:var(--font-geist-sans)]">
       <div className="p-8 sm:px-20 sm:py-12">
 
-        {selectedCity && (
-          <SearchDrawer
-            selectedCity={selectedCity}
-            dateRange={dateRange}
-            numberOfDays={numberOfDays}
-            filteredHotels={filteredHotels}
-          />
-        )}
-
-
-        <StashPartners
-          hotelData={hotelData}
-          itemsPerPage={itemsPerPage}
-        />
+        <LayoutGroup>
+          {selectedCity && (
+            <SearchDrawer
+              selectedCity={selectedCity}
+              dateRange={dateRange}
+              numberOfDays={numberOfDays}
+              filteredHotels={filteredHotels}
+            />
+          )}
+          
+          <motion.div layout>
+            <StashPartners
+              hotelData={hotelData}
+              itemsPerPage={itemsPerPage}
+            />
+          </motion.div>
+        </LayoutGroup>
       </div>
     </div>
   );
