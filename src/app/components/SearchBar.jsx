@@ -42,7 +42,7 @@ export default function SearchBar({ cities, className = "" }) {
   return (
     <div className={`w-full bg-search-bg flex items-center justify-center text-search-text py-8 ${className}`}>
       <div className="w-full px-20 flex md:flex-row items-center gap-4">
-        <div className="w-full flex flex-col lg:flex-row items-center gap-8">
+        <div className="w-full flex flex-col xl:flex-row items-center gap-8">
           <div className='flex flex-col gap-4 sm:flex-row w-full sm:w-auto'>
             <CitySearchCombobox
               className="w-full sm:w-60"
