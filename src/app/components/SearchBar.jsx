@@ -61,7 +61,7 @@ export default function SearchBar({ cities, className = "" }) {
               onChange={setAdults}
               min={1}
             />
-            <div className="hidden sm:block w-px self-stretch bg-search-text mx-2" />
+            <div className="hidden sm:block w-px self-stretch bg-search-text mx-2 opacity-50" />
             <Counter
               label="Children"
               value={children}
