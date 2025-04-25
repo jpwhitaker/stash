@@ -13,7 +13,10 @@ export default function SearchBar({ cities, className = "" }) {
 
   const handleCitySelect = (city) => {
     setSelectedCity(city);
-    router.push(`/search/${encodeURIComponent(city)}`);
+    // Update URL without navigation using history API
+    if (window.history) {
+      window.history.pushState(null, '', `/search/${encodeURIComponent(city)}`);
+    }
   };
 
   useEffect(() => {
