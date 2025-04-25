@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import useSearchStore from '@/app/store/searchStore';
 import { differenceInDays } from 'date-fns';
 
@@ -22,47 +23,49 @@ export default function SearchResult({ hotel }, key) {
   const totalPrice = effectiveRate * numberOfDays;
 
   return (
-    <div className="flex flex-col" key={key}>
-      <div className="aspect-[6/5] bg-gray-200 rounded-3xl shadow overflow-hidden relative">
-        <Image
-          src={hotel.image}
-          alt={hotel.name}
-          fill
-          className="object-cover"
-          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 25vw, 16.67vw"
-        />
-        {hotel.has_member_rate && (
-          <div className="absolute top-2 right-2 z-10">
-            <MemberRateBadge />
+    <Link href={`/hotel/${hotel.id}`} className="cursor-pointer" key={key}>
+      <div className="flex flex-col">
+        <div className="aspect-[6/5] bg-gray-200 rounded-3xl shadow overflow-hidden relative">
+          <Image
+            src={hotel.image}
+            alt={hotel.name}
+            fill
+            className="object-cover"
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 25vw, 16.67vw"
+          />
+          {hotel.has_member_rate && (
+            <div className="absolute top-2 right-2 z-10">
+              <MemberRateBadge />
+            </div>
+          )}
+        </div>
+        <div className="flex flex-row justify-between items-start mt-4 w-full">
+          <div className="flex flex-col gap-0">
+            <div className="font-semibold">{hotel.name}</div>
+            <div className="text-sm">{hotel.city}</div>
           </div>
-        )}
-      </div>
-      <div className="flex flex-row justify-between items-start mt-4 w-full">
-        <div className="flex flex-col gap-0">
-          <div className="font-semibold">{hotel.name}</div>
-          <div className="text-sm">{hotel.city}</div>
-        </div>
-        <div className="flex flex-col gap-0 items-end">
-        {hotel.has_member_rate ? (
-            <div className="flex items-center">
-              <div className="text-md font-medium text-gray-400 line-through mr-2">${Math.floor(hotel.daily_rate)}</div>
+          <div className="flex flex-col gap-0 items-end">
+          {hotel.has_member_rate ? (
+              <div className="flex items-center">
+                <div className="text-md font-medium text-gray-400 line-through mr-2">${Math.floor(hotel.daily_rate)}</div>
+                <div className="text-xl font-bold text-amber-600">${effectiveRate}</div>
+              </div>
+            ) : (
               <div className="text-xl font-bold text-amber-600">${effectiveRate}</div>
-            </div>
-          ) : (
-            <div className="text-xl font-bold text-amber-600">${effectiveRate}</div>
-          )}
-          {hasDateRange && numberOfDays > 1 ? (
-            <div className="text-xs font-normal text-gray-500 text-right">
-              ${totalPrice} total for {numberOfDays} nights
-            </div>
-          ) : (
-            <div className="text-xs font-normal text-gray-500">
-              per night
-            </div>
-          )}
+            )}
+            {hasDateRange && numberOfDays > 1 ? (
+              <div className="text-xs font-normal text-gray-500 text-right">
+                ${totalPrice} total for {numberOfDays} nights
+              </div>
+            ) : (
+              <div className="text-xs font-normal text-gray-500">
+                per night
+              </div>
+            )}
+          </div>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 
