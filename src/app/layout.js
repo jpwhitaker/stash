@@ -1,10 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { 
-  Tenor_Sans, 
   Sorts_Mill_Goudy, 
-  EB_Garamond, 
-  Spectral, 
-  Merriweather_Sans 
 } from "next/font/google";
 import "./globals.css";
 import SearchBar from "./components/SearchBar";
@@ -23,35 +19,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const tenorSans = Tenor_Sans({
-  variable: "--font-tenor-sans",
-  subsets: ["latin"],
-  weight: "400",
-});
-
 const sortsMillGoudy = Sorts_Mill_Goudy({
   variable: "--font-sorts-mill-goudy",
   subsets: ["latin"],
   weight: "400",
 });
 
-const ebGaramond = EB_Garamond({
-  variable: "--font-eb-garamond",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
-const spectral = Spectral({
-  variable: "--font-spectral",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
-const merriweatherSans = Merriweather_Sans({
-  variable: "--font-merriweather-sans",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-});
 
 export const metadata = {
   title: "Stash Hotel Rewards",
@@ -66,11 +39,7 @@ export default function RootLayout({ children }) {
         className={`
           ${geistSans.variable} 
           ${geistMono.variable} 
-          ${tenorSans.variable} 
           ${sortsMillGoudy.variable}
-          ${ebGaramond.variable}
-          ${spectral.variable}
-          ${merriweatherSans.variable}
           antialiased
         `}
       >
