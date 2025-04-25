@@ -8,7 +8,7 @@ I wanted to make an elegant but fun search experience.  The colors and UI are re
 ## Overview
 
 
-- Search for hotels by city
+- Search by city or hotel
 - Select date ranges
 - See member rates and special offers
 - Showcase other Stash partners
