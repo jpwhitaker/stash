@@ -12,7 +12,14 @@ export default function SearchResult({ hotel }, key) {
     ? differenceInDays(dateRange.to, dateRange.from) + 1 
     : 1;
 
-  const totalPrice = Math.floor(hotel.daily_rate) * numberOfDays;
+  
+  const getEffectiveRate = (rate, hasMemberRate) => {
+    const baseRate = Math.floor(rate);
+    return hasMemberRate ? Math.floor(baseRate * 0.9) : baseRate;
+  };
+
+  const effectiveRate = getEffectiveRate(hotel.daily_rate, hotel.has_member_rate);
+  const totalPrice = effectiveRate * numberOfDays;
 
   return (
     <div className="flex flex-col" key={key}>
@@ -39,13 +46,13 @@ export default function SearchResult({ hotel }, key) {
         {hotel.has_member_rate ? (
             <div className="flex items-center">
               <div className="text-md font-medium text-gray-400 line-through mr-2">${Math.floor(hotel.daily_rate)}</div>
-              <div className="text-xl font-bold text-amber-600">${Math.floor(hotel.daily_rate * 0.9)}</div>
+              <div className="text-xl font-bold text-amber-600">${effectiveRate}</div>
             </div>
           ) : (
-            <div className="text-xl font-bold text-amber-600">${Math.floor(hotel.daily_rate)}</div>
+            <div className="text-xl font-bold text-amber-600">${effectiveRate}</div>
           )}
           {hasDateRange && numberOfDays > 1 ? (
-            <div className="text-xs font-normal text-gray-500">
+            <div className="text-xs font-normal text-gray-500 text-right">
               ${totalPrice} total for {numberOfDays} nights
             </div>
           ) : (

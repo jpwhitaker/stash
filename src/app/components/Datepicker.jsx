@@ -28,6 +28,13 @@ export function DatePicker({
     }
   );
 
+  // Initialize store with today's date if not already set
+  React.useEffect(() => {
+    if (!dateRange?.from) {
+      setDateRange({ from: today, to: today });
+    }
+  }, []);
+
   const handleDateSelect = (newDate) => {
     setDate(newDate);
     setDateRange(newDate);
