@@ -15,7 +15,7 @@ I wanted to make an elegant but fun search experience.  The colors and UI are re
 
 ## Features
 
-- **City-based Search**: Filter hotels by selected destinations
+- **Search**: Filter hotels by city or hotel name
 - **Date Range Selection**: Choose check-in and check-out dates
 - **Dynamic Pricing**: See nightly rates and total stay costs
 - **Member Rate Display**: Special pricing for members
