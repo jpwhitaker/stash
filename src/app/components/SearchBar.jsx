@@ -42,7 +42,7 @@ export default function SearchBar({ cities, className = "" }) {
   return (
     <div className={`w-full bg-search-bg flex items-center justify-center text-search-text py-8 ${className}`}>
       <div className="w-full px-20 flex md:flex-row items-center gap-4">
-        <div className="w-full flex flex-col xl:flex-row items-center gap-8">
+        <div className="w-full flex flex-col xl:flex-row items-center gap-4 xl:gap-8">
           <div className='flex flex-col gap-4 sm:flex-row w-full sm:w-auto'>
             <CitySearchCombobox
               className="w-full sm:w-60"
@@ -61,7 +61,7 @@ export default function SearchBar({ cities, className = "" }) {
               onChange={setAdults}
               min={1}
             />
-            <div className="w-px self-stretch bg-search-text mx-2" />
+            <div className="hidden sm:block w-px self-stretch bg-search-text mx-2" />
             <Counter
               label="Children"
               value={children}
